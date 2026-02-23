@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-3</label>, <locus>Seiten 10-11</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift.</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">zweite und dritte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_2">
+        <surface ulx="0" uly="0" lrx="6964" lry="5804">
+            <graphic url="20_Ms_252_3_2.jpg" width="6964px" height="5804px"/>
+			<zone points="23,-3 6976,-3 6976,5224 23,5224" rendition="printspace"/>
+			<zone points="598,409 684,409 684,479 598,479" rendition="TextRegion" subtype="page-number" xml:id="facs_2_r1"/>
+			<zone points="1517,398 2148,398 2148,466 1517,466" rendition="TextRegion" subtype="header" xml:id="facs_2_r2"/>
+			<zone points="584,560 3096,566 3099,985 3099,1174 584,1174 584,988" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r3"/>
+			<zone points="725,1198 2493,1198 2493,1298 725,1298" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r4"/>
+			<zone points="730,1312 1349,1312 1349,1402 730,1402" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r5"/>
+			<zone points="724,1414 1525,1414 1525,1503 724,1503" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r6"/>
+			<zone points="722,1518 1640,1518 1640,1609 722,1609" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r7"/>
+			<zone points="723,1622 1868,1622 1868,1714 723,1714" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r8"/>
+			<zone points="582,1721 3098,1721 3098,3592 582,3592" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r9"/>
+			<zone points="582,3596 3079,3596 3079,4440 582,4440" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r10"/>
+			<zone points="3070,4432 3070,4556 3067,4655 585,4653 582,4573 582,4449" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r11"/>
+			<zone points="81,926 187,926 558,1115 558,1267 81,1267" rendition="TextRegion" xml:id="facs_2_r12"/>
+			<zone points="6268,333 6351,333 6351,402 6268,402" rendition="TextRegion" subtype="page-number" xml:id="facs_2_r13"/>
+			<zone points="4522,326 5719,326 5719,391 4522,391" rendition="TextRegion" subtype="header" xml:id="facs_2_r14"/>
+			<zone points="3532,315 6023,315 6025,942 6025,1684 3534,1684 3516,957" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r15"/>
+			<zone points="3893,1864 6374,1864 6374,2080 3893,2080" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r16"/>
+			<zone points="3890,2071 6391,2071 6391,2600 3890,2600" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r17"/>
+			<zone points="3893,2593 6388,2593 6388,3019 3893,3019" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r18"/>
+			<zone points="3895,3007 6388,3007 6388,4171 3895,4171" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r19"/>
+			<zone points="3903,4152 6394,4152 6394,4591 3903,4591" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r20"/>
+			<zone points="3568,905 3838,905 3838,1167 3568,1167" rendition="TextRegion" xml:id="facs_2_r21"/>
+			<zone points="6394,704 6908,704 6908,990 6394,990" rendition="TextRegion" xml:id="facs_2_r22"/>
+			<zone points="6394,990 6908,990 6908,1120 6394,1120" rendition="TextRegion" xml:id="facs_2_r23"/>
+			<zone points="6457,1977 6752,1977 6752,2247 6457,2247" rendition="TextRegion" xml:id="facs_2_r24"/>
+			<zone points="3546,3114 3893,3114 3893,3546 3546,3546" rendition="TextRegion" xml:id="facs_2_r25"/>
+			<zone points="6389,3041 6875,3041 6875,3381 6389,3381" rendition="TextRegion" xml:id="facs_2_r26"/>
+			<zone points="6370,3400 6870,3400 6870,3585 6370,3585" rendition="TextRegion" xml:id="facs_2_r27"/>
+			<zone points="3537,3639 3787,3639 3787,3928 3537,3928" rendition="TextRegion" xml:id="facs_2_r28"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_3_1v" facs="#facs_2" n="2"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_25v"/>
+			<p facs="#facs_2_r1" xml:id="p.fTaqRg" rendition="#nummer">
+				<lb facs="#facs_2_r1l1" n="N001"/>10 <link target="Stil_Bd.1_Aufl_I_1860a_s10"/>
+			</p>
+			<p facs="#facs_2_r2" xml:id="p.ufPvPZ" rendition="#klein">
+				<lb facs="#facs_2_r2l1" n="N001"/>Zweites Hauptstück.
+			</p>
+			<p facs="#facs_2_r3" xml:id="p.TkHNZr" prev="20_Ms_252_3_1.xml#p.nD0eRn" next="#p.r6DGau" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r3l1" n="N001"/>Nach diesen vier Kategorieen der Stoffe, die in Betracht kom-
+				<lb facs="#facs_2_r3l2" n="N002" type="hyph"/>men, unterscheiden sich nun auch die vier Hauptbethätigungen
+				<lb facs="#facs_2_r3l3" n="N003"/>des Kunstfleisses, insofern nämlich dieser durch geringere oder
+				<lb facs="#facs_2_r3l4" n="N004"/>grössere Mühen und technische Proceduren dahin gelangt, den
+				<lb facs="#facs_2_r3l5" n="N005"/>Rohstoff je nach seiner Qualification einem bestimmten Zwecke
+				<lb facs="#facs_2_r3l6" n="N006"/>dien<del rend="durchstr Blei" xml:id="del.QZH49i">s<add place="vor_Zeile" rend="Blei" rendition="#hand" xml:id="add.NuJktG"><unclear>t</unclear></add></del>bar <add rend="Blei" rendition="#hand" xml:id="add.28w0nM"><metamark function="Einfügung" target="#p.ZUhHlI"><mod cause="Korrekturdurchgang">anchor line</mod></metamark></add> zu machen.
+			</p>
+			<p facs="#facs_2_r4" xml:id="p.r6DGau" prev="#p.TkHNZr" next="#p.WxLRKW" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r4l1" n="N001"/>Demnach theilen sie sich in folgende Klassen:
+			</p>
+			<p facs="#facs_2_r5" xml:id="p.WxLRKW" prev="#p.r6DGau" next="#p.ppLnO0" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r5l1" n="N001"/>1) <rs type="term" ref="begriffsregister.xml#TERM0005">textile Kunst</rs>,
+			</p>
+			<p facs="#facs_2_r6" xml:id="p.ppLnO0" prev="#p.WxLRKW" next="#p.rj0lV0" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r6l1" n="N001"/>2) <rs type="term" ref="begriffsregister.xml#TERM0006">keramische Kunst</rs>,
+			</p>
+			<p facs="#facs_2_r7" xml:id="p.rj0lV0" prev="#p.ppLnO0" next="#p.cFynBi" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r7l1" n="N001"/>3) <rs type="term" ref="begriffsregister.xml#TERM0007">Tektonik</rs> (Zimmerei),
+			</p>
+			<p facs="#facs_2_r8" xml:id="p.cFynBi" prev="#p.rj0lV0" next="#p.5BCDwt" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r8l1" n="N001"/>4) <rs type="term" ref="begriffsregister.xml#TERM0008">Stereotomie</rs> (Maurerei etc.).
+			</p>
+			<p facs="#facs_2_r9" xml:id="p.5BCDwt" prev="#p.cFynBi" next="#p.OBa97s" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r9l1" n="N001"/>Dieser hier gegebenen Eintheilung muss die für das Folgende
+				<lb facs="#facs_2_r9l2" n="N002"/>durchaus nothwendige Erklärung beigefügt werden, dass jede Ab-
+				<lb facs="#facs_2_r9l3" n="N003" type="hyph"/>theilung derselben in ihrem umfassendsten Sinne zu nehmen sei,
+				<lb facs="#facs_2_r9l4" n="N004"/>woraus dann vielfältige Wechselbeziehungen zwischen ihnen her-
+				<lb facs="#facs_2_r9l5" n="N005" type="hyph"/>vorgehen, die hervorzuheben und zu verfolgen Aufgabe sein wird.
+				<lb facs="#facs_2_r9l6" n="N006"/>Jeder der genannten Abtheilungen der Technik gehört ein gewisses
+				<lb facs="#facs_2_r9l7" n="N007"/>Gebiet im Reiche der <rs ref="begriffsregister.xml#TERM0408" type="term">Formen</rs> eigen an, deren Hervorbringung
+				<lb facs="#facs_2_r9l8" n="N008"/>gleichsam die natürlichste und ursprünglichste Aufgabe dieser
+				<lb facs="#facs_2_r9l9" n="N009"/>Technik ist. Zweitens ist jeder Technik ein bestimmter Stoff
+				<lb facs="#facs_2_r9l10" n="N010"/>gleichsam als Urstoff eigen, der zu der Hervorbringung der zu
+				<lb facs="#facs_2_r9l11" n="N011"/>seinem ursprünglichen Bereiche gehörigen <rs ref="begriffsregister.xml#TERM0408" type="term">Formen</rs> die bequemsten
+				<lb facs="#facs_2_r9l12" n="N012"/>Mittel bietet. Nun aber gelangte man später dahin, jene Formen
+				<lb facs="#facs_2_r9l13" n="N013"/>auch aus anderen Stoffen zu bilden und jene Stoffe zu anderen
+				<lb facs="#facs_2_r9l14" n="N014"/>einer heterogenen Abtheilung der Künste ursprünglich angehörigen
+				<lb facs="#facs_2_r9l15" n="N015"/>Bildungen zu verwenden. Derartige Bildungen sind also in sti-
+				<lb facs="#facs_2_r9l16" n="N016" type="hyph"/>listischer Beziehung beiden Gebieten der Technik zuzurechnen,
+				<lb facs="#facs_2_r9l17" n="N017"/>je nachdem man das Formelle oder das Stoffliche an ihnen be-
+				<lb facs="#facs_2_r9l18" n="N018" type="hyph"/>rücksichtigt.
+			</p>
+			<p facs="#facs_2_r10" xml:id="p.OBa97s" prev="#p.5BCDwt" next="#p.qezAIp" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r10l1" n="N001"/>So beschränkt sich die <rs type="artefact" ref="artefaktenregister.xml#THING0326">Keramik</rs> in ihrer allgemeineren Auf-
+				<lb facs="#facs_2_r10l2" n="N002" type="hyph"/>fassung nicht auf <rs type="artefact" ref="artefaktenregister.xml#THING3057">Thongefässe</rs> allein, sie schliesst in sich die ge-
+				<lb facs="#facs_2_r10l3" n="N003" type="hyph"/>sammte Gefässkunde; sie umfasst auch die verwandten Glas-,
+				<lb facs="#facs_2_r10l4" n="N004" type="hyph"/>Stein- und Metallwaaren. Auch Holzfabrikate können dem Stile
+				<lb facs="#facs_2_r10l5" n="N005"/>nach diesem Genus als besondere Familie zugerechnet werden,
+				<lb facs="#facs_2_r10l6" n="N006"/>z. B. Tonnen, Holzeimer u. dgl. Selbst textile Arbeiten, wie die
+				<lb facs="#facs_2_r10l7" n="N007"/>Körbe, stehen in dieser Beziehung mit der <rs type="artefact" ref="artefaktenregister.xml#THING0326">Keramik</rs> in stilver-
+				<lb facs="#facs_2_r10l8" n="N008" type="hyph"/>wandtschaftlichem Rapporte.
+			</p>
+			<p facs="#facs_2_r11" xml:id="p.qezAIp" prev="#p.OBa97s" next="#p.ZUhHlI" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r11l1" n="N001"/>Dagegen können Gegenstände, die allerdings in materieller
+				<lb facs="#facs_2_r11l2" n="N002"/>Hinsicht den <rs type="term" ref="begriffsregister.xml#TERM0006">keramischen Künsten</rs> angehören, insofern ein Bilden
+			</p>
+			<join target="#p.qezAIp #p.ZUhHlI"/>
+			<p facs="#facs_2_r12" xml:id="p.VkidFK" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r12l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.7rNWYR"><metamark function="Anmerkung">&einfüg_2;</metamark></add>
+				<lb facs="#facs_2_r12l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.uytxUf"><handShift script="Latein"/>dienstb<handShift script="Kurrent"/>.</add>
+			</p>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_3_2r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_26r"/>
+			<p facs="#facs_2_r13" xml:id="p.cZqNyJ" rendition="#nummer">
+				<lb facs="#facs_2_r13l1" n="N001"/>11 <link target="Stil_Bd.1_Aufl_I_1860a_s11"/>
+			</p>
+			<p facs="#facs_2_r14" xml:id="p.vVKBAf" rendition="#klein">
+				<lb facs="#facs_2_r14l1" n="N001"/>Klassification der <rs type="term" ref="begriffsregister.xml#TERM0023">technischen Künste</rs>.
+			</p>
+			<p facs="#facs_2_r15" xml:id="p.ZUhHlI" prev="#p.qezAIp" next="#p.uylMBX" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r15l1" n="N001"/>aus weicher Masse und ein Erhärten und Fixiren der gewonnenen
+				<lb facs="#facs_2_r15l2" n="N002"/>Form stattfand, nur als in zweitem Grade verwandt zu den kera-
+				<lb facs="#facs_2_r15l3" n="N003" type="hyph"/>mischen Künsten gerechnet werden, weil sie in formeller Beziehung
+				<lb facs="#facs_2_r15l4" n="N004"/>einem anderen Gebiete angehören. Solcher Art sind die Ziegel-
+				<lb facs="#facs_2_r15l5" n="N005" type="hyph"/>steine, die Dachziegel<add rend="STinte" rendition="#hand" xml:id="add.wB1a5Q">,</add> <add place="oberhalb" rend="STinte" rendition="#hand" xml:id="add.ZNSagM"><metamark function="Anmerkung">&einfüg_2;</metamark></add> <del rend="durchstr STinte" xml:id="del.tgBYrs">und</del> die Terra<hi rend="unterstr STinte">ko<del rend="durchstr Blei" xml:id="del.aK6k5x">l</del>ten</hi><add rend="Blei" rendition="#hand" xml:id="add.k9c1p4"><metamark function="Anmerkung" target="#p.1MzMoC">&einfüg_2;</metamark></add><del rend="durchstr STinte" xml:id="del.YfpJXS"><add rend="STinte" rendition="#hand" xml:id="add.oYaK3j">,</add> oder</del> <add rend="STinte" rendition="#hand" xml:id="add.h06q8l"><metamark function="Einfügung" target="#p.jAKio9">&einfüg_2;</metamark></add> die glasirten
+				<lb facs="#facs_2_r15l6" n="N006"/>Fliesen, die zu der Bekleidung der Wände und zu der Täfelung
+				<lb facs="#facs_2_r15l7" n="N007"/>der Fussböden bestimmt sind. Dessgleichen die Würfel aus Glas
+				<lb facs="#facs_2_r15l8" n="N008"/>und die buntfarbigen Thonstifte, die zu musivischen Werken be-
+				<lb facs="#facs_2_r15l9" n="N009" type="hyph"/>nutzt werden, und andere Producte der Keramik. Sie sind mit
+				<lb facs="#facs_2_r15l10" n="N010"/>grösserem Rechte theils der <rs type="term" ref="begriffsregister.xml#TERM0008">Stereotomie</rs>, theils der <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Kunst</rs>
+				<lb facs="#facs_2_r15l11" n="N011"/>in stilistischer Beziehung beizurechnen, da durch sie theils ein
+				<lb facs="#facs_2_r15l12" n="N012"/>musivisches, der Steinkonstruction verwandtes Werk, theils eine
+				<lb facs="#facs_2_r15l13" n="N013"/>Bekleidung der Wandflächen u. s. w. bewerkstelligt wird.
+			</p>
+			<p facs="#facs_2_r16" xml:id="p.uylMBX" prev="#p.ZUhHlI" next="#p.ynS41V" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r16l1" n="N001"/>So gehören auch der <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Kunst</rs> nicht bloss die eigentlichen
+				<lb facs="#facs_2_r16l2" n="N002"/><rs type="artefact" ref="artefaktenregister.xml#THING0259">Gewebe</rs> an, wie sich diess aus dem Folgenden ergeben wird.
+			</p>
+			<p facs="#facs_2_r17" xml:id="p.ynS41V" prev="#p.uylMBX" next="#p.AEkwCw" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r17l1" n="N001"/>Die <rs type="term" ref="begriffsregister.xml#TERM0007">Tektonik</rs> hat gleichfalls ein weit umfassendes Gebie<hi rend="unterstr STinte">t.</hi><add place="oberhalb" rend="STinte" rendition="#hand" xml:id="add.tZN7bX"><metamark function="Anmerkung" target="#p.gJvG33">&einfüg_2;</metamark></add>
+				<lb facs="#facs_2_r17l2" n="N002"/>Ausser dem hölzernen Dachgerüste und den dasselbe stützenden
+				<lb facs="#facs_2_r17l3" n="N003"/>Säulen ist diesem Gebiete ein grosser Theil des Hausrathes zu-
+				<lb facs="#facs_2_r17l4" n="N004" type="hyph"/>zutheilen. Ihm fällt auch in gewisser Beziehung ein Theil des
+				<lb facs="#facs_2_r17l5" n="N005"/>Steinbaues und ein bestimmtes System der Metallkonstructionen zu.
+			</p>
+			<p facs="#facs_2_r18" xml:id="p.AEkwCw" prev="#p.ynS41V" next="#p.EXNKt0" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r18l1" n="N001"/>Die <rs type="term" ref="begriffsregister.xml#TERM0008">Stereotomie</rs> umfasst nicht bloss die Kunst des Maurers
+				<lb facs="#facs_2_r18l2" n="N002"/>und Erdarbeiters, auch der Mosaikarbeiter, der Holz-, Elfenbein-,
+				<lb facs="#facs_2_r18l3" n="N003" type="hyph"/>Metallschnitzer ist <rs type="term" ref="begriffsregister.xml#TERM0008">Stereotom</rs>. Sogar der Juwelier entnimmt einen
+				<lb facs="#facs_2_r18l4" n="N004"/>Theil seiner Stilgesetze dieser Technik.
+			</p>
+			<p facs="#facs_2_r19" xml:id="p.EXNKt0" prev="#p.AEkwCw" next="#p.X48byZ" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r19l1" n="N001"/>Sehr bedeutsam ist das hieraus hervorgehende Ineinander-
+				<lb facs="#facs_2_r19l2" n="N002" type="hyph"/>greifen<add rend="Blei" rendition="#hand" xml:id="add.MLoNux">,</add><del rend="durchstr Blei" xml:id="del.xaNT2r">:</del> <add rend="Blei" rendition="#hand" xml:id="add.dvfPAZ"><metamark function="Anmerkung">&einfüg_2;</metamark></add> sind die Uebergänge zwischen den vier verschiedenen
+				<lb facs="#facs_2_r19l3" n="N003"/>Geschlechtern des Kunstbetriebes,<add place="oberhalb" rend="Blei" rendition="#hand" xml:id="add.mdAffu">;</add><add rend="Blei" rendition="#hand" xml:id="add.VBnHVp"><metamark function="Anmerkung">&einfüg_strich;</metamark></add> so verbindet sich die <rs type="term" ref="begriffsregister.xml#TERM0005">textile
+				<lb facs="#facs_2_r19l4" n="N004"/>Kunst</rs> mit der keramischen in den schon angeführten Getäfeln
+				<lb facs="#facs_2_r19l5" n="N005"/>der Wände und Fussböden<add rend="Blei" rendition="#hand" xml:id="add.DB4Xq0"><metamark function="Anmerkung">&einfüg_2;</metamark>,</add> mit der tektonischen in der Brett-
+				<lb facs="#facs_2_r19l6" n="N006" type="hyph"/>verkleidung. In stilistischer Beziehung noch wichtigere Verbin-
+				<lb facs="#facs_2_r19l7" n="N007" type="hyph"/>dungen des <rs type="term" ref="begriffsregister.xml#TERM0001">Bekleidungsprinzipes</rs> mit der <rs type="term" ref="begriffsregister.xml#TERM0007">Tektonik</rs> werden sich
+				<lb facs="#facs_2_r19l8" n="N008"/><metamark function="Einfügung" target="#p.e6APiy"/><del rend="durchstr Blei" xml:id="del.qFcyVK">an</del> dem Folgenden herausstellen. (<hi rendition="#x-space">Tubular-Constructionen</hi>,
+				<lb facs="#facs_2_r19l9" n="N009"/><hi rendition="#x-space">Gitterwerke</hi>, in jenen das textile Element stoffbietend, das
+				<lb facs="#facs_2_r19l10" n="N010"/>tektonische formengebend, in diesen [den Gittern] das tektonische
+				<lb facs="#facs_2_r19l11" n="N011"/>Element stoffbietend, das textile formengebend.)
+			</p>
+			<p facs="#facs_2_r20" xml:id="p.X48byZ" prev="#p.EXNKt0" next="20_Ms_252_3_3.xml#p.HeKrk8" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r20l1" n="N001"/>Gemischten Stiles sind auch die Werke des Goldschmiedes,
+				<lb facs="#facs_2_r20l2" n="N002"/>sowie, ausser vielen anderen Fällen, welche in dem Folgenden
+				<lb facs="#facs_2_r20l3" n="N003"/>besondere Erwägung finden werden, die Steinkonstructionen nach
+				<lb facs="#facs_2_r20l4" n="N004"/>dem Prinzipe des Alterthums, bei denen die <rs type="term" ref="begriffsregister.xml#TERM0008">Stereotomie</rs> in
+			</p>
+			<join target="#p.X48byZ 20_Ms_252_3_3.xml#p.HeKrk8"/>
+			<p facs="#facs_2_r21" xml:id="p.bCp5OR" rendition="#hand" rend="STinte">
+				<lb facs="#facs_2_r21l1" n="N001"/><add rend="STinte" rendition="#hand" xml:id="add.JViMy9"><metamark function="Anmerkung">&einfüg_2;</metamark> <handShift script="Latein"/>deɭ<handShift script="Kurrent"/>.</add>
+			</p>
+			<p facs="#facs_2_r22" xml:id="p.1MzMoC" rendition="#hand" rend="STinte">
+				<lb facs="#facs_2_r22l1" n="N001"/><subst><add rend="Blei" rendition="#hand" xml:id="add.AMttIp"><del rend="überschr" xml:id="del.ngXr6J"><metamark function="Anmerkung">&einfüg_2;</metamark> kotten</del></add><add rend="STinte" rendition="#hand" xml:id="add.yzDfFz"><metamark function="Anmerkung">&einfüg_2;</metamark> kotten</add></subst>
+			</p>
+			<p facs="#facs_2_r23" xml:id="p.jAKio9" rendition="#hand" rend="STinte">
+				<lb facs="#facs_2_r23l1" n="N001"/><add rend="STinte" rendition="#hand" xml:id="add.EPSJNg"><metamark function="Einfügung">&einfüg_2;</metamark> und</add>
+			</p>
+			<p facs="#facs_2_r24" xml:id="p.gJvG33" rendition="#hand" rend="STinte">
+				<lb facs="#facs_2_r24l1" n="N001"/><add rend="STinte" rendition="#hand" xml:id="add.qNp17a">; <metamark function="Anmerkung">&einfüg_2;</metamark></add>
+			</p>
+			<p facs="#facs_2_r25" xml:id="p.l09MxT" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r25l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.wYTULD"><metamark function="Einfügung"><mod cause="Korrekturdurchgang">line</mod></metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.snmfpH">del :</add>
+				<lb facs="#facs_2_r25l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.Zfkx4T">dafür</add>
+				<lb facs="#facs_2_r25l3" n="N003"/><add rend="Blei" rendition="#hand" xml:id="add.48oYq5">Komma</add>
+			</p>
+			<p facs="#facs_2_r26" xml:id="p.kEfmc1" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r26l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.fKaxeY"><metamark function="Anmerkung">&einfüg_2;</metamark> <handShift script="Latein"/>Semicolon<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_2_r27" xml:id="p.abjHsZ" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r27l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.FpknFF"><metamark function="Anmerkung">&einfüg_2;</metamark> <handShift script="Latein"/>Komma<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_2_r28" xml:id="p.e6APiy" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r28l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.Y0xtDP"><metamark function="Einfügung">&einfüg_2;</metamark> <handShift script="Latein"/>in<handShift script="Kurrent"/></add>
+			</p>
+		</body>
+	</text>
+</TEI>

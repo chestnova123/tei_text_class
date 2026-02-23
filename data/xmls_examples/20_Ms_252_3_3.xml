@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-3</label>, <locus>Seiten 12-13</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift.</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Vierte und fünfte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_3">
+        <surface ulx="0" uly="0" lrx="6928" lry="5810">
+            <graphic url="20_Ms_252_3_3.jpg" width="6928px" height="5810px"/>
+			<zone points="21,-4 6917,-4 6917,5239 21,5239" rendition="printspace"/>
+			<zone points="573,366 657,366 657,437 573,437" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r1"/>
+			<zone points="1501,348 2126,348 2126,416 1501,416" rendition="TextRegion" subtype="header" xml:id="facs_3_r2"/>
+			<zone points="576,523 3065,523 3065,715 576,715" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r3"/>
+			<zone points="574,734 3114,734 3114,3753 574,3753" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r4"/>
+			<zone points="592,3761 3106,3761 3106,4366 592,4366" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r5"/>
+			<zone points="3135,1415 3328,1415 3328,1579 3135,1579" rendition="TextRegion" xml:id="facs_3_r6"/>
+			<zone points="132,1609 587,1609 587,1818 132,1818" rendition="TextRegion" xml:id="facs_3_r7"/>
+			<zone points="73,2877 598,2877 598,3228 73,3228" rendition="TextRegion" xml:id="facs_3_r8"/>
+			<zone points="199,3230 543,3230 543,3437 199,3437" rendition="TextRegion" xml:id="facs_3_r9"/>
+			<zone points="48,3439 563,3439 563,3681 48,3681" rendition="TextRegion" xml:id="facs_3_r10"/>
+			<zone points="3075,3599 3349,3599 3349,3900 3075,3900" rendition="TextRegion" xml:id="facs_3_r11"/>
+			<zone points="6159,386 6243,386 6243,455 6159,455" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r12"/>
+			<zone points="4781,381 5218,381 5218,432 4781,432" rendition="TextRegion" subtype="heading" xml:id="facs_3_r13"/>
+			<zone points="4339,573 5674,573 5674,645 4339,645" rendition="TextRegion" subtype="heading" xml:id="facs_3_r14"/>
+			<zone points="4736,735 5280,735 5280,799 4736,799" rendition="TextRegion" subtype="heading" xml:id="facs_3_r15"/>
+			<zone points="4930,888 5104,888 5104,978 4930,978" rendition="TextRegion" subtype="heading" xml:id="facs_3_r16"/>
+			<zone points="4185,1046 5833,1046 5833,1101 4185,1101" rendition="TextRegion" subtype="heading" xml:id="facs_3_r17"/>
+			<zone points="3776,1203 6273,1203 6273,2749 3776,2749" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r18"/>
+			<zone points="3773,2765 6265,2765 6265,2961 3773,2961" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r19"/>
+			<zone points="4924,3064 5098,3064 5098,3156 4924,3156" rendition="TextRegion" subtype="heading" xml:id="facs_3_r20"/>
+			<zone points="4537,3226 5463,3226 5463,3279 4537,3279" rendition="TextRegion" subtype="heading" xml:id="facs_3_r21"/>
+			<zone points="3764,3380 6258,3380 6258,3778 3764,3778" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r22"/>
+			<zone points="3902,3802 5399,3802 5399,3888 3902,3888" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r23"/>
+			<zone points="3900,3905 6014,3905 6014,3996 3900,3996" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r24"/>
+			<zone points="3757,4000 6263,4000 6263,4628 3757,4628" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r25"/>
+			<zone points="6252,1190 6789,1190 6789,1404 6252,1404" rendition="TextRegion" xml:id="facs_3_r26"/>
+			<zone points="3542,2837 3542,2984 3679,2984 3679,2837" rendition="TextRegion" xml:id="facs_3_r27"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_3_2v" facs="#facs_3" n="3"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_26v"/>
+			<p facs="#facs_3_r1" xml:id="p.7kLKBO" rendition="#nummer">
+				<lb facs="#facs_3_r1l1" n="N001"/>12 <link target="Stil_Bd.1_Aufl_I_1860a_s12"/>
+			</p>
+			<p facs="#facs_3_r2" xml:id="p.FxlTMV" rendition="#klein">
+				<lb facs="#facs_3_r2l1" n="N001"/>Zweites Hauptstück.
+			</p>
+			<p facs="#facs_3_r3" xml:id="p.HeKrk8" prev="20_Ms_252_3_2.xml#p.X48byZ" next="#p.haVyhZ" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r3l1" n="N001"/>Verbindung mit der <rs type="term" ref="begriffsregister.xml#TERM0007">Tektonik</rs> und dem <rs type="term" ref="begriffsregister.xml#TERM0001">Bekleidungsprinzipe</rs>
+				<lb facs="#facs_3_r3l2" n="N002"/>auftritt.
+			</p>
+			<p facs="#facs_3_r4" xml:id="p.haVyhZ" prev="#p.HeKrk8" next="#p.kKgLwQ" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r4l1" n="N001"/>Unter den Stoffen, die der Mensch seinen Zwecken dienstbar
+				<lb facs="#facs_3_r4l2" n="N002"/>macht, ist das Metall dasjenige, welches alle oben aufgezählten
+				<lb facs="#facs_3_r4l3" n="N003"/>Eigenschaften der Rohstoffe in sich vereinigt; es ist <hi rendition="#x-space">plastisch</hi>
+				<lb facs="#facs_3_r4l4" n="N004"/><hi rendition="#x-space">erweichbar</hi> und <hi rendition="#x-space">erhärtungsfähig</hi>, es ist <hi rendition="#x-space">biegsam</hi>, <hi rendition="#x-space">zäh</hi>,
+				<lb facs="#facs_3_r4l5" n="N005"/>dem <hi rendition="#x-space">Zerreissen</hi> in hohem Grade widerstehend, es ist sehr
+				<lb facs="#facs_3_r4l6" n="N006"/><hi rendition="#x-space">elastisch</hi> und von <hi rendition="#x-space">bedeutender relativer Festigkeit</hi>
+				<lb facs="#facs_3_r4l7" n="N007"/>(obschon diess wegen zu grosser Elasticität und Biegsamkeit seine
+				<lb facs="#facs_3_r4l8" n="N008"/>schwächste Eigenschaft ist) und daher zu Stabkonstru<metamark target="#p.iBOgkV" function="Einfügung"/><del rend="durchstr Blei" xml:id="del.NRCV60">c</del>tionen sehr
+				<lb facs="#facs_3_r4l9" n="N009"/>nutzbar; es ist endlich <hi rendition="#x-space">fest</hi>, von sehr homogenem und <hi rendition="#x-space">dichtem</hi>
+				<lb facs="#facs_3_r4l10" n="N010"/><hi rendition="#x-space">Aggregatzustande</hi>, dem Zerdrücken <add rend="Blei" rendition="#hand" xml:id="add.3ikXCs"><metamark function="Einfügung" target="#p.EBZE9U">&einfüg_2;</metamark></add> ungeheuren Widerstand
+				<lb facs="#facs_3_r4l11" n="N011"/>leistend und in Folge dieser Eigenschaften mehr als ein anderer
+				<lb facs="#facs_3_r4l12" n="N012"/>Stoff geeignet, sich durch Abnehmen von Theilen der Masse zu
+				<lb facs="#facs_3_r4l13" n="N013"/>gewünschter <rs ref="begriffsregister.xml#TERM0408" type="term">Form</rs> bearbeiten und zu festen Systemen verbinden
+				<lb facs="#facs_3_r4l14" n="N014"/>zu lassen. In Folge dieser allseitigen Behandlungsfähigkeit ver-
+				<lb facs="#facs_3_r4l15" n="N015" type="hyph"/>einigt die <rs type="term" ref="begriffsregister.xml#TERM0016">Metallotechnik</rs> in sich alle vier Klassen der Technik.
+				<lb facs="#facs_3_r4l16" n="N016"/>Dabei schliesst sie eine Fülle von übergänglichen technischen
+				<lb facs="#facs_3_r4l17" n="N017"/>Processen in sich ein, wie sie bei keinem anderen Materiale vor-
+				<lb facs="#facs_3_r4l18" n="N018" type="hyph"/>kommen. So führt z. B. die Malleabilität der Metalle zu dem
+				<lb facs="#facs_3_r4l19" n="N019"/>wichtigen Processe des <hi rendition="#x-space">Treibens</hi>. Davon verschieden ist der
+				<lb facs="#facs_3_r4l20" n="N020"/>Process des <hi rendition="#x-space">Schmiedens</hi>, ein Uebergang zwischen dem Ver-
+				<lb facs="#facs_3_r4l21" n="N021" type="hyph"/>fahren, das Metall als biegsam zähe Masse und demjenigen, e<unclear><mod cause="Korrekturdurchgang">s</mod></unclear>
+				<lb facs="#facs_3_r4l22" n="N022"/>als dichten Körper stereotomisch zu behandeln. Andere Processe
+				<lb facs="#facs_3_r4l23" n="N023"/>sind das <hi rend="unterstr Blei">Prägen</hi> und <hi rend="unterstr Blei">Münzen</hi>, das <hi rendition="#x-space">Löthen</hi>, das <hi rendition="#x-space">Schweissen</hi>,
+				<lb facs="#facs_3_r4l24" n="N024"/>das <hi rendition="#x-space">Nieten</hi>, die ebenso vielen stilistischen Besonderheiten ent-
+				<lb facs="#facs_3_r4l25" n="N025" type="hyph"/>sprechen. Dazu kommen <metamark function="Einfügung" target="#p.J3hKwo"/><del rend="durchstr Blei" xml:id="del.tYHAat">c</del>omponirte Processe, wie das Emailliren,
+				<lb facs="#facs_3_r4l26" n="N026"/>das Nielliren, das Vergolden und viele andere, die alle für sich
+				<lb facs="#facs_3_r4l27" n="N027"/>betrachtet <add rend="Blei" rendition="#hand" xml:id="add.FJtKQK"><metamark function="Einfügung" rend="Linie"><anchor xml:id="A20_ms_252_3_3_1"/></metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.wSBGQu"><metamark function="Einfügung" target="#p.1sCfbq">&einfüg_2;</metamark></add> und in Berücksichtigung des Einflusses, den sie auf die
+				<lb facs="#facs_3_r4l28" n="N028"/>bildenden Künste und auf die <rs type="term" ref="begriffsregister.xml#TERM0004">Baukunst</rs> im Besonderen haben,
+				<lb facs="#facs_3_r4l29" n="N029"/>für uns sehr wichtig sind.
+			</p>
+			<p facs="#facs_3_r5" xml:id="p.kKgLwQ" prev="#p.haVyhZ" next="#p.hBHb8q" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r5l1" n="N001"/>Wegen dieser grossen Bedeutung der <rs type="term" ref="begriffsregister.xml#TERM0016">Metallotechnik</rs> <add rend="Blei" rendition="#hand" xml:id="add.rMs3bt"><metamark function="Einfügung" target="#p.Psd1Fp">&einfüg_2;</metamark></add> <del rend="durchstr Blei" xml:id="del.z725d5">an</del> den
+				<lb facs="#facs_3_r5l2" n="N002"/>Künsten und der Schwierigkeit, die sich in der Rubricirung der
+				<lb facs="#facs_3_r5l3" n="N003"/>genannten und noch anderer nicht genannter Processe des Metall-
+				<lb facs="#facs_3_r5l4" n="N004" type="hyph"/>arbeitens unter die oben aufgestellten vier allgemeinen Klassen
+				<lb facs="#facs_3_r5l5" n="N005"/>darbieten möchten, wird es nöthig sein, der <rs type="term" ref="begriffsregister.xml#TERM0016">Metallotechnik</rs> eine
+				<lb facs="#facs_3_r5l6" n="N006"/>besondere Rubrik zu widmen.
+			</p>
+			<p facs="#facs_3_r6" xml:id="p.iBOgkV" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r6l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.7hF6z9"><handShift script="Latein"/>k<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_3_r7" xml:id="p.EBZE9U" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r7l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.Vucbqj"><metamark function="Einfügung">&einfüg_2;</metamark> zum Theil</add>
+			</p>
+			<p facs="#facs_3_r8" xml:id="p.BcvXF3" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r8l1" n="N001"/><metamark function="Einfügung"><add rend="Blei" rendition="#hand" xml:id="add.wIxdDV">&einfüg_2;</add></metamark>
+				<lb facs="#facs_3_r8l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.Qwzdct">grossge-</add>
+				<lb facs="#facs_3_r8l3" n="N003" type="hyph"/><add rend="Blei" rendition="#hand" xml:id="add.xQPXwC">druckt</add>
+			</p>
+			<p facs="#facs_3_r9" xml:id="p.J3hKwo" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r9l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.2l1NAt"><metamark function="Einfügung">&einfüg_2;</metamark> <handShift script="Latein"/>k<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_3_r10" xml:id="p.1sCfbq" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r10l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.ksVifZ"><metamark function="Einfügung">&einfüg_2;</metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.6UV6OB"><metamark function="Einfügung" rend="Linie"><ptr target="#A20_ms_252_3_3_1"/></metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.J06Ars">werden</add>
+				<lb facs="#facs_3_r10l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.RyWzat">müssen</add>
+			</p>
+			<p facs="#facs_3_r11" xml:id="p.Psd1Fp" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r11l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.zD9sKX"><metamark function="Einfügung">&einfüg_2;</metamark> <handShift script="Latein"/>in<handShift script="Kurrent"/></add>
+			</p>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_3_3r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_27r"/>
+			<p facs="#facs_3_r12" xml:id="p.MIf405" rendition="#nummer">
+				<lb facs="#facs_3_r12l1" n="N001"/>13 <link target="Stil_Bd.1_Aufl_I_1860a_s13"/>
+			</p>
+			<p facs="#facs_3_r13" xml:id="p.rZpL9G" rendition="#klein">
+				<lb facs="#facs_3_r13l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>.
+			</p>
+			<pb/>
+			<p facs="#facs_3_r14" xml:id="p.hBHb8q" prev="#p.kKgLwQ" next="#p.UYrgZL" rendition="#egypt">
+				<lb facs="#facs_3_r14l1" n="N001"/><hi rend="fett">Drittes Hauptstück. <rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>.</hi>
+			</p>
+			<p facs="#facs_3_r15" xml:id="p.UYrgZL" prev="#p.hBHb8q" next="#p.dpSN6o" rendition="#class_schmal_klein">
+				<lb facs="#facs_3_r15l1" n="N001"/>A. Allgemein Formelles.
+			</p>
+			<p facs="#facs_3_r16" xml:id="p.dpSN6o" prev="#p.UYrgZL" next="#p.523B44" rendition="#druck_unbekannt">
+				<lb facs="#facs_3_r16l1" n="N001"/>§. 4.
+			</p>
+			<p facs="#facs_3_r17" xml:id="p.523B44" prev="#p.dpSN6o" next="#p.uKygQD" rendition="#klein">
+				<lb facs="#facs_3_r17l1" n="N001"/>Wesshalb die <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Künste</rs> voranzuschicken sind.
+			</p>
+			<p facs="#facs_3_r18" xml:id="p.uKygQD" prev="#p.523B44" next="#p.tOo015" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r18l1" n="N001"/>Es ist schwer zu bestimmen, kommt auch genau genommen
+				<lb facs="#facs_3_r18l2" n="N002"/>wenig darauf an zu wissen, <add rend="Blei" rendition="#hand" xml:id="add.0Gb8nP"><metamark function="Anmerkung">&einfüg_2;</metamark></add> welche<add rend="Blei" rendition="#hand" xml:id="add.9l50zU"><metamark function="Einfügung" target="#p.kr0PKY">&einfüg_strich;</metamark></add> unter den im vorigen Kapitel
+				<lb facs="#facs_3_r18l3" n="N003"/>aufgeführten Zweigen der Technik nach dem natürlichen Ent-
+				<lb facs="#facs_3_r18l4" n="N004" type="hyph"/>wicklungsgange des Menschen zuerst in Ausübung kam. Jeden-
+				<lb facs="#facs_3_r18l5" n="N005" type="hyph"/>falls kann kein Zweifel darüber obwalten, dass die beiden zuerst
+				<lb facs="#facs_3_r18l6" n="N006"/>namhaft gemachten, nämlich <rs type="term" ref="begriffsregister.xml#TERM0005">textile Kunst</rs> und <rs type="artefact" ref="artefaktenregister.xml#THING0326">Keramik</rs> diejeni-
+				<lb facs="#facs_3_r18l7" n="N007" type="hyph"/>gen sind, bei denen sich neben der Zweckverfolgung zuerst das
+				<lb facs="#facs_3_r18l8" n="N008"/>Streben des Verschönerns durch Formenwahl und durch Zierrath
+				<lb facs="#facs_3_r18l9" n="N009"/>kund gab. — Unter diesen beiden Künsten gebührt aber wieder
+				<lb facs="#facs_3_r18l10" n="N010"/>der <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Kunst</rs> der unbedingte Vorrang, weil sie sich dadurch
+				<lb facs="#facs_3_r18l11" n="N011"/>gleichsam als Urkunst zu erkennen gibt, dass alle anderen
+				<lb facs="#facs_3_r18l12" n="N012"/>Künste, <hi rendition="#x-space">die <rs type="artefact" ref="artefaktenregister.xml#THING0326">Keramik</rs> nicht ausgenommen</hi>, ihre Typen und
+				<lb facs="#facs_3_r18l13" n="N013"/>Symbole aus der <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Kunst</rs> entlehnten, während sie selbst in
+				<lb facs="#facs_3_r18l14" n="N014"/>dieser Beziehung ganz selbständig erscheint und ihre Typen aus
+				<lb facs="#facs_3_r18l15" n="N015"/>sich heraus bildet oder unmittelbar der Natur abborgt.
+			</p>
+			<p facs="#facs_3_r19" xml:id="p.tOo015" prev="#p.uKygQD" next="#p.Bl6wAP" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r19l1" n="N001"/>Es ist nicht zweifelhaft, dass die ersten Prinzipien des Stiles
+				<lb facs="#facs_3_r19l2" n="N002"/><hi rend="unterstr STinte"><mod cause="Korrekturdurchgang"><hi rendition="#x-space">s</hi>i</mod></hi>ch in dieser ursprünglichsten Kunsttechnik befestigten.
+			</p>
+			<p facs="#facs_3_r20" xml:id="p.Bl6wAP" prev="#p.tOo015" next="#p.tGS7Ar" rendition="#druck_unbekannt">
+				<lb facs="#facs_3_r20l1" n="N001"/>§. 5.
+			</p>
+			<p facs="#facs_3_r21" xml:id="p.tGS7Ar" prev="#p.Bl6wAP" next="#p.t2Odv2" rendition="#klein">
+				<lb facs="#facs_3_r21l1" n="N001"/>Erste Zwecke dieser Technik.
+			</p>
+			<p facs="#facs_3_r22" xml:id="p.t2Odv2" prev="#p.tGS7Ar" next="#p.dzrIot" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r22l1" n="N001"/>Der Mensch kam auf die Idee, ein System von Stoffeinheiten,
+				<lb facs="#facs_3_r22l2" n="N002"/>deren charakteristische Eigenschaften in der Biegsamkeit, Ge-
+				<lb facs="#facs_3_r22l3" n="N003" type="hyph"/>schmeidigkeit und Zähigkeit bestehen, zusammenzufügen aus fol-
+				<lb facs="#facs_3_r22l4" n="N004" type="hyph"/>genden Gründen:
+			</p>
+			<p facs="#facs_3_r23" xml:id="p.dzrIot" prev="#p.t2Odv2" next="#p.Ks4WPe" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r23l1" n="N001"/><hi rendition="#x-space">erstens</hi> um zu reihen und zu binden;
+			</p>
+			<p facs="#facs_3_r24" xml:id="p.Ks4WPe" prev="#p.dzrIot" next="#p.RDzoJk" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r24l1" n="N001"/><hi rendition="#x-space">zweitens</hi> um zu decken, zu schützen, abzuschliessen.
+			</p>
+			<p facs="#facs_3_r25" xml:id="p.RDzoJk" prev="#p.Ks4WPe" next="20_Ms_252_3_4.xml#p.g5hfDO" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r25l1" n="N001"/>Alle Formen, die aus diesen Zwecken hervorgehen, sind entweder
+				<lb facs="#facs_3_r25l2" n="N002"/>der linearischen oder der planimetrischen <rs ref="begriffsregister.xml#TERM0035" type="term">Grundform</rs> sich an-
+				<lb facs="#facs_3_r25l3" n="N003" type="hyph"/>nähernd. Jene eignen sich mehr dazu, das Reihen und Binden
+				<lb facs="#facs_3_r25l4" n="N004"/>faktisch zu bewerkstelligen oder dem Begriffe nach bildlich zu
+				<lb facs="#facs_3_r25l5" n="N005"/>versinnlichen; diese hingegen werden erforderlich, wo man decken,
+				<lb facs="#facs_3_r25l6" n="N006"/>schützen und abschliessen will, und sind zugleich die sich selbst
+			</p>
+			<join target="#p.RDzoJk 20_Ms_252_3_4.xml#p.g5hfDO"/>
+			<p facs="#facs_3_r26" xml:id="p.kr0PKY" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r26l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.iGzW2B"><metamark function="Anmerkung">&einfüg_2;</metamark> <handShift script="Latein"/>welcher<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_3_r27" xml:id="p.MTSLXO" rendition="#hand" rend="STinte">
+				<lb facs="#facs_3_r27l1" n="N001"/><add rend="STinte" rendition="#hand" xml:id="add.feDcRM"><metamark function="Anmerkung"><mod cause="Korrekturdurchgang">_</mod></metamark></add>
+			</p>
+		</body>
+	</text>
+</TEI>

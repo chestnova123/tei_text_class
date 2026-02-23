@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-6</label>, <locus>Seiten 34-35</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift. Erste SEite von einem Bogen</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Zweite und dritte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_2">
+        <surface ulx="0" uly="0" lrx="6916" lry="5864">
+            <graphic url="20_Ms_252_6_2.jpg" width="6916px" height="5864px"/>
+			<zone points="7,-3 6926,-3 6926,5268 7,5268" rendition="printspace"/>
+			<zone points="661,416 752,416 752,491 661,491" rendition="TextRegion" subtype="page-number" xml:id="facs_2_r1"/>
+			<zone points="1604,407 2217,407 2217,477 1604,477" rendition="TextRegion" subtype="header" xml:id="facs_2_r2"/>
+			<zone points="655,576 3160,576 3160,1207 655,1207" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r3"/>
+			<zone points="1477,2730 2360,2730 2360,2807 1477,2807" rendition="TextRegion" subtype="caption" xml:id="facs_2_r4"/>
+			<zone points="653,2881 3152,2881 3152,3316 653,3316" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r5"/>
+			<zone points="630,3301 3151,3298 3151,4567 630,4570" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r6"/>
+			<zone points="74,3033 658,3033 658,3484 74,3484" rendition="TextRegion" subtype="marginalia" xml:id="facs_2_r7"/>
+			<zone points="6232,299 6321,299 6321,371 6232,371" rendition="TextRegion" subtype="page-number" xml:id="facs_2_r8"/>
+			<zone points="4870,310 5317,310 5317,364 4870,364" rendition="TextRegion" subtype="header" xml:id="facs_2_r9"/>
+			<zone points="3849,473 6356,473 6356,1628 3849,1628" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r10"/>
+			<zone points="4999,1738 5216,1738 5216,1830 4999,1830" rendition="TextRegion" subtype="heading" xml:id="facs_2_r11"/>
+			<zone points="4346,1892 5871,1892 5871,1973 4346,1973" rendition="TextRegion" subtype="heading" xml:id="facs_2_r12"/>
+			<zone points="3876,2036 6367,2036 6367,2677 3876,2677" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r13"/>
+			<zone points="3885,2658 6381,2658 6381,3597 3885,3597" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r14"/>
+			<zone points="3895,3599 6399,3605 6399,4575 3895,4569" rendition="TextRegion" subtype="paragraph" xml:id="facs_2_r15"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_6_1v" facs="#facs_2" n="2"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_37v"/>
+			<p facs="#facs_2_r1" xml:id="p.VG8nS8" rendition="#nummer">
+				<lb facs="#facs_2_r1l1" n="N001"/>34 <link target="Stil_Bd.1_Aufl_I_1860a_s34"/>
+			</p>
+			<p facs="#facs_2_r2" xml:id="p.C2QgpX" rendition="#klein">
+				<lb facs="#facs_2_r2l1" n="N001"/>Drittes Hauptstück.
+			</p>
+			<p facs="#facs_2_r3" xml:id="p.42TVl1" prev="20_Ms_252_6_1.xml#p.MZVaF8" next="#p.WekdUW" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r3l1" n="N001" type="hyph"/>position bemerkt, dass es ebenso verkehrt sei, eine Sache auf den
+				<lb facs="#facs_2_r3l2" n="N002"/>Kopf zu stellen, wie sie beim Schwanze aufzuhängen. In allen
+				<lb facs="#facs_2_r3l3" n="N003"/>Fällen muss der Kopf oben bleiben und dasjenige, was ein Her-
+				<lb facs="#facs_2_r3l4" n="N004" type="hyph"/>abhängendes nach Unten endigt, darf niemals identificirt werden
+				<lb facs="#facs_2_r3l5" n="N005"/>mit Formen, die für den oberen Abschluss als krönende Symbole
+				<lb facs="#facs_2_r3l6" n="N006"/>bezeichnend sind. Jedoch bildet der sogenannte <hi rendition="#x-space"><rs type="artefact" ref="artefaktenregister.xml#THING0257">Ueberhang</rs></hi>
+			</p>
+			<join target="#p.42TVl1 #p.WekdUW"/>
+			<p facs="#facs_2_r4" xml:id="p.qhXPcz" rendition="#x-klein">
+				<lb facs="#facs_2_r4l1" n="N001"/>Ueber<del rend="durchstr BrTinte" xml:id="del.bJP1ej">hänge</del><add place="oberhalb" rend="BrTinte" rendition="#hand" xml:id="add.a3Jefr"><handShift script="Latein"/>hang<handShift script="Kurrent"/></add> im Stile Ludwigs XIV.
+			</p>
+			<p facs="#facs_2_r5" xml:id="p.WekdUW" prev="#p.42TVl1" next="#p.pSP6FR" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r5l1" n="N001"/>eine Ausnahme von dieser Regel oder vielmehr eine Vermittlung
+				<lb facs="#facs_2_r5l2" n="N002"/>des Gegensätzlichen zwischen Aufrechtem und Hangendem und ist
+				<lb facs="#facs_2_r5l3" n="N003"/>als solche im <metamark function="Einfügung" target="#p.htlQeQ"/><del><del rend="durchstr Blei" xml:id="del.0CMfiW">Droguerie</del>wesen</del>, sowie in sonstiger Anwendung als
+				<lb facs="#facs_2_r5l4" n="N004"/>Kunstsymbol (auch in der <rs type="term" ref="begriffsregister.xml#TERM0004">Baukunst</rs>) sehr bedeutsam.
+			</p>
+			<p facs="#facs_2_r6" xml:id="p.pSP6FR" prev="#p.WekdUW" next="#p.rt0MVd" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r6l1" n="N001"/>Die Regel, dass in allen Fällen das Kopfende oben bleiben
+				<lb facs="#facs_2_r6l2" n="N002"/>müsse, findet bei natürlichen Decken gleichsam gezwungene An-
+				<lb facs="#facs_2_r6l3" n="N003" type="hyph"/>wendung. So nöthigt der Strich der Haare bei allen <rs type="artefact" ref="artefaktenregister.xml#THING0236">Pelzwerken</rs>
+				<lb facs="#facs_2_r6l4" n="N004"/>zu ihrer Beobachtung. Es wäre gegen den gesunden Menschen-
+				<lb facs="#facs_2_r6l5" n="N005" type="hyph"/>verstand, einen Pelzkragen so zuzurichten, dass die Köpfe der
+				<lb facs="#facs_2_r6l6" n="N006"/>Thierchen, aus deren Fellen er besteht, nach unten, die Schwänze
+				<lb facs="#facs_2_r6l7" n="N007"/>nach oben gekehrt wären. Der Naturgemässheit dieser Regel, die
+				<lb facs="#facs_2_r6l8" n="N008"/>sich gleichsam von selbst versteht, unerachtet, sind auf allen Ge-
+				<lb facs="#facs_2_r6l9" n="N009" type="hyph"/>bieten der Kunst Verstösse gegen dieselbe sehr zahlreich und
+				<lb facs="#facs_2_r6l10" n="N010"/>selten findet sich die Charakteristik des nach unten als Behang
+				<lb facs="#facs_2_r6l11" n="N011"/>Abschliessenden im Gegensatze zu dem nach oben als Krönung
+				<lb facs="#facs_2_r6l12" n="N012"/>Endigenden entschieden und konsequent durchgebildet.
+			</p>
+			<p facs="#facs_2_r7" xml:id="p.htlQeQ" rendition="#hand" rend="Blei">
+				<lb facs="#facs_2_r7l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.29xGuH">Draperie</add>
+				<lb facs="#facs_2_r7l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.bk3gRk">wesen</add>
+			</p>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_6_2r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_38r"/>
+			<p facs="#facs_2_r8" xml:id="p.yrwo8I" rendition="#nummer">
+				<lb facs="#facs_2_r8l1" n="N001"/>35 <link target="Stil_Bd.1_Aufl_I_1860a_s35"/>
+			</p>
+			<p facs="#facs_2_r9" xml:id="p.A0ZTfQ" rendition="#klein">
+				<lb facs="#facs_2_r9l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>. <add place="nach_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.8fzvFW">Die Decke</add>
+			</p>
+			<p facs="#facs_2_r10" xml:id="p.rt0MVd" prev="#p.pSP6FR" next="#p.5n3DYc" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r10l1" n="N001"/>Es sind Fälle denkbar, in welchen die Symmetrie keinen Aus-
+				<lb facs="#facs_2_r10l2" n="N002" type="hyph"/>druck haben darf, während die Proportionalität und aufwärts ge-
+				<lb facs="#facs_2_r10l3" n="N003" type="hyph"/>richtete Gliederung allein formenbestimmend wirkt. Diese Fälle
+				<lb facs="#facs_2_r10l4" n="N004"/>treten ein, wo Decken oder Bekleidungen nicht aus glatten Flächen
+				<lb facs="#facs_2_r10l5" n="N005"/>bestehen, sondern faltenreiche Draperieen (aulaea) bilden. Es darf
+				<lb facs="#facs_2_r10l6" n="N006"/>schon in ihrem allgemeinen Zuschnitte nichts liegen, welches dem
+				<lb facs="#facs_2_r10l7" n="N007"/>proportionalen Verhalten der Theile unter sich und zu dem Ganzen,
+				<lb facs="#facs_2_r10l8" n="N008"/>das durch sie verhüllt oder bekleidet wird, entgegenwirken könnte.
+				<lb facs="#facs_2_r10l9" n="N009"/>Die Falten müssen sich dem Organismus anschmiegen, seine Eigen-
+				<lb facs="#facs_2_r10l10" n="N010" type="hyph"/>schaften hervorheben, seine formellen Mängel und Unentschieden-
+				<lb facs="#facs_2_r10l11" n="N011" type="hyph"/>heiten verhüllen und korrigiren.
+			</p>
+			<p facs="#facs_2_r11" xml:id="p.5n3DYc" prev="#p.rt0MVd" next="#p.ZdXlAe" rendition="#druck_unbekannt">
+				<lb facs="#facs_2_r11l1" n="N001"/>§. 11.
+			</p>
+			<p facs="#facs_2_r12" xml:id="p.ZdXlAe" prev="#p.5n3DYc" next="#p.FPWFZt" rendition="#klein">
+				<lb facs="#facs_2_r12l1" n="N001"/><del rend="durchstr Blei" xml:id="del.vZ9Em5">In Beziehung auf</del> <add place="oberhalb" rend="Blei" rendition="#hand" xml:id="add.8s2sD7">Ueber</add> das auf der Fläche Figurirte.
+			</p>
+			<p facs="#facs_2_r13" xml:id="p.FPWFZt" prev="#p.ZdXlAe" next="#p.EGCF1V" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r13l1" n="N001"/>Es war in dem Vorhergegangenen nur hauptsächlich auf das
+				<lb facs="#facs_2_r13l2" n="N002"/>Allgemein-Formelle Rücksicht genommen worden, es bleibt noch
+				<lb facs="#facs_2_r13l3" n="N003"/>übrig, nachzuweisen, wie die Gesetze der Symmetrie und Propor-
+				<lb facs="#facs_2_r13l4" n="N004" type="hyph"/>tion bei aufrechten Wandflächen und herabhängenden Vorhängen
+				<lb facs="#facs_2_r13l5" n="N005"/>sich geltend machen in Rücksicht auf dasjenige, welches auf diesen
+				<lb facs="#facs_2_r13l6" n="N006"/>Bekleidungsflächen dargestellt oder figurirt wird.
+			</p>
+			<p facs="#facs_2_r14" xml:id="p.EGCF1V" prev="#p.FPWFZt" next="#p.wqSCyc" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r14l1" n="N001"/>Der Grundsatz der <hi rendition="#x-space">Flächenornamentation</hi> wurde schon
+				<lb facs="#facs_2_r14l2" n="N002"/>oben als aus der formalen Grundidee der <hi rendition="#x-space">Fläche</hi> als solcher her-
+				<lb facs="#facs_2_r14l3" n="N003" type="hyph"/>vorgehend und ihr entsprechend nachgewiesen. Er folgert sich
+				<lb facs="#facs_2_r14l4" n="N004"/>aber zugleich aus der Einheitlichkeit desjenigen, welches <hi rendition="#x-space">durch</hi>
+				<lb facs="#facs_2_r14l5" n="N005"/>die Bekleidung als Inbegriffliches und Ganzes gefasst wird und
+				<lb facs="#facs_2_r14l6" n="N006"/>sich als solches nicht ungestört kund geben kann, wenn die Orna-
+				<lb facs="#facs_2_r14l7" n="N007" type="hyph"/>mentation der umfassenden Flächen diesen die Eigenschaft des
+				<lb facs="#facs_2_r14l8" n="N008"/>kontinuirlichen räumlichen Abschliessens und Umfassens schein-
+				<lb facs="#facs_2_r14l9" n="N009" type="hyph"/>bar raubt.
+			</p>
+			<p facs="#facs_2_r15" xml:id="p.wqSCyc" prev="#p.EGCF1V" next="20_Ms_252_6_3.xml#p.1Zmfs9" rendition="#corpus_spaced">
+				<lb facs="#facs_2_r15l1" n="N001"/>Das richtige Verhältniss des Umfassenden zu dem Umfassten
+				<lb facs="#facs_2_r15l2" n="N002"/>muss sich ausserdem noch dadurch kund geben, dass dieses in
+				<lb facs="#facs_2_r15l3" n="N003"/>seiner Wirkung, d. h. in allen seinen formalen Eigenschaften, so-
+				<lb facs="#facs_2_r15l4" n="N004" type="hyph"/>wie in seinem Colorite durch jenes kräftigst gehoben und getragen
+				<lb facs="#facs_2_r15l5" n="N005"/>werde und auf ihm, gleichsam wie auf einem passend gewählten
+				<lb facs="#facs_2_r15l6" n="N006"/>Hintergrunde, sich als Hauptsujet unverkennbar darthue. Dieses
+				<lb facs="#facs_2_r15l7" n="N007"/>Ziel wird aber wieder durch ganz dieselben Eigenschaften der
+				<lb facs="#facs_2_r15l8" n="N008"/>Ornamentation erreicht, die sich aus dem formalen Begriffe der
+				<lb facs="#facs_2_r15l9" n="N009"/><hi rendition="#x-space">Fläche</hi> als solcher a priori entwickeln lassen und gleichzeitig der
+			</p>
+			<join target="#p.wqSCyc 20_Ms_252_6_3.xml#p.1Zmfs9"/>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-5</label>, <locus>Seite 30-31</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift.</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Sechste und siebte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_4">
+        <surface ulx="0" uly="0" lrx="6820" lry="5792">
+            <graphic url="20_Ms_252_5_4.jpg" width="6820px" height="5792px"/>
+			<zone points="16,0 6819,0 6819,5215 16,5215" rendition="printspace"/>
+			<zone points="550,326 640,326 640,400 550,400" rendition="TextRegion" subtype="page-number" xml:id="facs_4_r1"/>
+			<zone points="1497,302 2105,302 2105,369 1497,369" rendition="TextRegion" subtype="header" xml:id="facs_4_r2"/>
+			<zone points="549,471 3050,471 3050,1208 549,1208" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r3"/>
+			<zone points="1711,1316 1899,1316 1899,1410 1711,1410" rendition="TextRegion" subtype="heading" xml:id="facs_4_r4"/>
+			<zone points="1216,1475 2388,1475 2388,1545 1216,1545" rendition="TextRegion" subtype="heading" xml:id="facs_4_r5"/>
+			<zone points="563,1628 3067,1628 3067,2240 3067,2758 1250,2870 560,2870 560,2240" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r6"/>
+			<zone points="1685,2966 1926,2966 1926,3100 1685,3100" rendition="TextRegion" subtype="heading" xml:id="facs_4_r7"/>
+			<zone points="1137,3149 2471,3149 2471,3226 1137,3226" rendition="TextRegion" subtype="heading" xml:id="facs_4_r8"/>
+			<zone points="562,3296 3074,3296 3074,3506 3074,3821 561,3821 561,3606" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r9"/>
+			<zone points="560,3818 3069,3818 3069,4330 3069,4556 2708,4556 570,4556 560,4345" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r10"/>
+			<zone points="181,799 181,945 293,945 293,799" rendition="TextRegion" xml:id="facs_4_r11"/>
+			<zone points="143,2871 1423,2713 3349,2713 3349,2980 2442,3134 1926,3134 1926,2965 1685,2965 1685,3134 143,3134" rendition="TextRegion" xml:id="facs_4_r12"/>
+			<zone points="3039,1371 3454,1371 3454,2768 3039,2768" rendition="TextRegion" xml:id="facs_4_r13"/>
+			<zone points="3098,3267 3432,3267 3432,3651 3098,3651" rendition="TextRegion" xml:id="facs_4_r14"/>
+			<zone points="137,3933 424,3933 424,4237 137,4237" rendition="TextRegion" xml:id="facs_4_r15"/>
+			<zone points="3088,3943 3426,3943 3426,4116 3088,4116" rendition="TextRegion" xml:id="facs_4_r16"/>
+			<zone points="3088,4116 3426,4116 3426,4446 3088,4446" rendition="TextRegion" xml:id="facs_4_r17"/>
+			<zone points="6212,424 6296,424 6296,497 6212,497" rendition="TextRegion" subtype="page-number" xml:id="facs_4_r18"/>
+			<zone points="4829,424 5265,424 5265,478 4829,478" rendition="TextRegion" subtype="header" xml:id="facs_4_r19"/>
+			<zone points="3823,591 6320,591 6320,2773 3823,2773" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r20"/>
+			<zone points="3815,2783 6315,2783 6315,3824 3815,3824" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r21"/>
+			<zone points="3812,3821 6312,3821 6312,4658 3812,4658" rendition="TextRegion" subtype="paragraph" xml:id="facs_4_r22"/>
+			<zone points="6324,3443 6762,3443 6762,3676 6324,3676" rendition="TextRegion" xml:id="facs_4_r23"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_3v" facs="#facs_4" n="4"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_35v"/>
+			<p facs="#facs_4_r1" xml:id="p.szJ8Ld" rendition="#nummer">
+				<lb facs="#facs_4_r1l1" n="N001"/>30 <link target="Stil_Bd.1_Aufl_I_1860a_s29"/>
+			</p>
+			<p facs="#facs_4_r2" xml:id="p.MSH5rb" rendition="#klein">
+				<lb facs="#facs_4_r2l1" n="N001"/>Drittes Hauptstück.
+			</p>
+			<p facs="#facs_4_r3" xml:id="p.lGfhR2" rendition="#corpus_spaced" prev="20_Ms_252_5_3.xml#p.G8xu5n" next="#p.QuL8cc">
+				<lb facs="#facs_4_r3l1" n="N001"/>werden, dass sie in der Regel derartigen Sujets, wie der <rs type="artefact" ref="artefaktenregister.xml#THING0002">Alexander-
+				<lb facs="#facs_4_r3l2" n="N002" type="hyph"/>schlacht, in dem Fussboden</rs> eine Stelle anzuweisen gewusst haben,
+				<lb facs="#facs_4_r3l3" n="N003"/>die nicht betreten werden <hi rendition="#x-space">sollte</hi> und im Ganzen genommen das
+				<lb facs="#facs_4_r3l4" n="N004"/>Stilgesetz, von welchem es sich hier handelt, mit richtigem In-
+				<lb facs="#facs_4_r3l5" n="N005" type="hyph"/>stinkte befolgten, während diess von uns, besonders in unseren
+				<lb facs="#facs_4_r3l6" n="N006"/>extravaganten Fussteppichen, fast durchgängig mit raffinirter Ab-
+				<lb facs="#facs_4_r3l7" n="N007" type="hyph"/>sicht hintangesetzt erscheint.
+			</p>
+			<p facs="#facs_4_r4" xml:id="p.QuL8cc" rendition="#druck_unbekannt" prev="#p.lGfhR2" next="#p.3enmPj">
+				<lb facs="#facs_4_r4l1" n="N001"/>§. 9.
+			</p>
+			<p facs="#facs_4_r5" xml:id="p.3enmPj" rendition="#klein" prev="#p.QuL8cc" next="#p.X5HQ6V">
+				<lb facs="#facs_4_r5l1" n="N001"/>Oben und Unten, Rechts und Links.
+			</p>
+			<p facs="#facs_4_r6" xml:id="p.X5HQ6V" rendition="#corpus_spaced" prev="#p.3enmPj" next="#p.S56slV">
+				<lb facs="#facs_4_r6l1" n="N001"/>Die Begriffe <hi rendition="#x-space">Oben</hi> und <hi rendition="#x-space">Unten</hi>, <hi rendition="#x-space">Rechts</hi> und <hi rendition="#x-space">Links</hi> treten
+				<lb facs="#facs_4_r6l2" n="N002"/>bei einer Fläche je nach ihrer Bestimmung entweder deutlich her-
+				<lb facs="#facs_4_r6l3" n="N003" type="hyph"/>vor oder sie bleiben indifferent. Sprechen wir zuerst von den
+				<lb facs="#facs_4_r6l4" n="N004"/>Fällen, wo eine Kundgebung der Richtung bei Flächen in dem
+				<lb facs="#facs_4_r6l5" n="N005"/>Sinne des Oben und Unten, Rechts und Links unbedingt erfor-
+				<lb facs="#facs_4_r6l6" n="N006" type="hyph"/>derlich wird. Es ist evident, dass in derartigen Fällen die Gesetze
+				<lb facs="#facs_4_r6l7" n="N007"/>der Symmetrie und Proportion gleichzeitig in Anwendung kommen
+				<lb facs="#facs_4_r6l8" n="N008"/>(siehe Vorrede), und zwar in doppelter Beziehung; nämlich erstens
+				<lb facs="#facs_4_r6l9" n="N009"/>in Rücksicht auf das Verhalten zwischen Breite und Höhe der
+				<lb facs="#facs_4_r6l10" n="N010"/>Fläche, sowie auf deren allgemeine lineare Umgrenzung; zweitens
+				<lb facs="#facs_4_r6l11" n="N011"/>aber in Rücksicht auf dasjenige, welches auf der Fläche dargestellt
+				<lb facs="#facs_4_r6l12" n="N012"/>oder figurirt ist.<metamark function="Einfügung" target="#p.6Dnh9U"></metamark>
+			</p>
+			<p facs="#facs_4_r7" xml:id="p.S56slV" rendition="#druck_unbekannt" prev="#p.X5HQ6V" next="#p.ibWOgn">
+				<lb facs="#facs_4_r7l1" n="N001"/>§. 10.
+			</p>
+			<p facs="#facs_4_r8" xml:id="p.ibWOgn" rendition="#klein" prev="#p.S56slV" next="#p.gHSl9g">
+				<lb facs="#facs_4_r8l1" n="N001"/><del rend="durchstr Blei" xml:id="del.M8sg3i">In Beziehung auf das</del> <hi rend="unterstr Blei"><del rend="durchstr Blei" xml:id="del.ZSdi9W">a</del><add place="oberhalb" rend="Blei" rendition="#hand" xml:id="add.WljXS3">A</add>llgemein<add rend="Blei" rendition="#hand" xml:id="add.sErX8o">-</add>Formelle</hi><subst><del rend="überschr" xml:id="del.fIkrZO"><hi>.</hi></del><add rend="Blei" rendition="#hand" xml:id="add.NVJOc7"><hi>s</hi>.</add></subst> <add place="nach_Zeile" rend="Blei" rendition="#hand" xml:id="add.mjwETG">Allgemein-Formelles.</add>
+			</p>
+			<p facs="#facs_4_r9" xml:id="p.gHSl9g" rendition="#corpus_spaced" prev="#p.ibWOgn" next="#p.RUxa2O">
+				<lb facs="#facs_4_r9l1" n="N001"/>In Beziehung auf das allgemein Formelle ergibt sich nun
+				<lb facs="#facs_4_r9l2" n="N002"/>grundsätzlich zuerst, dass die <del rend="durchstr BrTinte" xml:id="del.WCb6JH">Form</del> <add place="oberhalb" rend="BrTinte" rendition="#hand" xml:id="add.3ypdB4"><metamark function="Einfügung" target="#p.0usI1Z">&einfüg_2;</metamark></add>, denkt man sich dieselbe
+				<lb facs="#facs_4_r9l3" n="N003"/>durch eine ihre Mitte durchschneidende Vertikallinie zweigetheilt,
+				<lb facs="#facs_4_r9l4" n="N004"/>zu letzterer regelmässig sein müsse, das heisst, dass die linke
+				<lb facs="#facs_4_r9l5" n="N005"/>Hälfte eine stricte Wiederholung der rechten Hälfte sei.
+			</p>
+			<p facs="#facs_4_r10" xml:id="p.RUxa2O" rendition="#corpus_spaced" next="#p.A94uQC">
+				<lb facs="#facs_4_r10l1" n="N001"/>Indem hiedurch der <hi rendition="#x-space">Symmetrie</hi> oder dem richtigen existenz-
+				<lb facs="#facs_4_r10l2" n="N002" type="hyph"/>fähigen Verhalten der Einzelnerscheinung zu dem Allgemeinen, in
+				<lb facs="#facs_4_r10l3" n="N003"/>welchem <metamark function="Einfügung" target="#p.2V4qiR"><add rend="BrTinte" rendition="#hand" xml:id="add.xyoH2T">&einfüg_2;</add></metamark> <del rend="durchstr BrTinte" xml:id="del.nWmW0t">es</del> <add place="oberhalb" rend="BrTinte" rendition="#hand" xml:id="add.kB1hcP"><unclear><del rend="durchstr BrTinte" xml:id="del.1VVp1l">s</del></unclear></add> Bestand hat und wovon <metamark function="Einfügung" target="#p.YtWjy9"><add rend="BrTinte" rendition="#hand" xml:id="add.3X1np2">&einfüg_2;</add></metamark> <del rend="durchstr BrTinte" xml:id="del.d6hIy2">es</del> einen Theil bildet, genügt
+				<lb facs="#facs_4_r10l4" n="N004"/>wird, muss zugleich schon in der allgemeinen <rs ref="begriffsregister.xml#TERM0408" type="term">Form</rs> der Fläche
+				<lb facs="#facs_4_r10l5" n="N005"/>sich deutlich zu erkennen geben, dass sie entweder <add rend="BrTinte" rendition="#hand" xml:id="add.uNveEo"><metamark function="Anmerkung" target="#p.2MA31M">&einfüg_2;</metamark></add> <hi rendition="#x-space"><del rend="durchstr BrTinte" xml:id="del.DOs8fd">aufrecht</del></hi>
+				<lb facs="#facs_4_r10l6" n="N006"/><hi rendition="#x-space">stehe</hi> oder <hi rendition="#x-space">hänge</hi>. Beide Fälle, nämlich die Fläche als stehende
+				<lb facs="#facs_4_r10l7" n="N007"/>Wand und der Vorhang, haben das Gemeinsame, dass sie der
+			</p>
+			<join target="#p.RUxa2O #p.A94uQC"/>
+			<p facs="#facs_4_r11" xml:id="p.r4HfaJ" rendition="#hand" rend="Blei">
+				<lb facs="#facs_4_r11l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.VcVhQi"><unclear>(</unclear></add>
+			</p>
+			<p facs="#facs_4_r12" xml:id="p.6Dnh9U" rendition="#hand" rend="Blei">
+				<lb facs="#facs_4_r12l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.k73Cyq"><metamark function="Einfügung" rend="Linie"><anchor xml:id="A20_ms_252_5_4_1"/></metamark></add> <add rend="BrTinte" rendition="#hand" xml:id="add.BjNKEo"><metamark function="Einfügung" target="#p.V880EY">&einfüg_2;</metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.y5d5uz"><del rend="durchstr Blei" xml:id="del.MhBqmv"><unclear>Dieser Paragraph und der</unclear></del></add> <add place="oberhalb" rend="Blei" rendition="#hand" xml:id="add.0yHwSk"><sic>Das</sic></add> <subst><add rend="Blei" rendition="#hand" xml:id="add.BLTpvR"><del rend="überschr" xml:id="del.Ltlp4D">folgende</del></add><add rend="BrTinte" rendition="#hand" xml:id="add.PuysXg"><del rend="durchstr BrTinte" xml:id="del.bLuKUL">Das Folgen</del></add></subst> <add rend="Blei" rendition="#hand" xml:id="add.7bgocI"><del rend="durchstr Blei" xml:id="del.fU0kDb">bezieh<mod cause="Korrekturdurchgang">ent</mod></del></add>
+				<lb facs="#facs_4_r12l2" n="N002"/><add place="vor_Zeile" rend="Blei" rendition="#hand" xml:id="add.263z7N"><sic>betrifft</sic></add> <add rend="Blei" rendition="#hand" xml:id="add.JgUNo4"><del rend="durchstr Blei_BrTinte" xml:id="del.GrynNz"><mod cause="Korrekturdurchgang">sich</mod></del><del rend="durchstr BrTinte" xml:id="del.iUFiOX"> selbstverständlich<sic>.</sic> </del><del rend="durchstr Blei_BrTinte" xml:id="del.8uiG1U"><mod cause="Korrekturdurchgang">besonders auf <unclear>aufwärts</unclear></mod></del></add> <unclear><add place="unterhalb" rend="Blei" rendition="#hand" xml:id="add.3PQWlz"><del rend="durchstr Blei" xml:id="del.DI2JA5">nur</del></add></unclear> <add rend="Blei" rendition="#hand" xml:id="add.DuL7IH"><metamark function="Einfügung"><mod cause="Korrekturdurchgang">anchor line</mod></metamark></add> <add place="unterhalb" rend="Blei" rendition="#hand" xml:id="add.O8Vz5m"><del rend="durchstr BrTinte" xml:id="del.QsXLKq">zunächst</del> <sic>nur</sic></add><del rend="durchstr Blei_BrTinte" xml:id="del.rGkO7w"> <add rend="Blei" rendition="#hand" xml:id="add.26mgMZ"><mod cause="Korrekturdurchgang">stehende Flächen</mod></add></del>
+				<lb facs="#facs_4_r12l3" n="N003"/><add rend="Blei" rendition="#hand" xml:id="add.0c8EsP"><sic>die in</sic> <del rend="durchstr BrTinte" xml:id="del.HI0J6P">vertikaler Lage befindlichen</del></add>
+				<lb facs="#facs_4_r12l4" n="N004"/><add rend="Blei" rendition="#hand" xml:id="add.B5VoNj"><del rend="durchstr BrTinte" xml:id="del.Ka7ZnT">Flächen.</del></add>
+			</p>
+			<p facs="#facs_4_r13" xml:id="p.V880EY" rendition="#hand" rend="STinte">
+				<lb facs="#facs_4_r13l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.TQ143P"><metamark function="Einfügung" rend="Linie"><ptr target="#A20_ms_252_5_4_1"/></metamark></add> <add rend="BrTinte" rendition="#hand" xml:id="add.UsyJMW"><metamark function="Einfügung">&einfüg_2;</metamark> Das</add>
+				<lb facs="#facs_4_r13l2" n="N002"/><add rend="BrTinte" rendition="#hand" xml:id="add.KKRRrl">Folgende</add>
+				<lb facs="#facs_4_r13l3" n="N003"/><add rend="BrTinte" rendition="#hand" xml:id="add.JD21qI">betrifft</add>
+				<lb facs="#facs_4_r13l4" n="N004"/><add rend="BrTinte" rendition="#hand" xml:id="add.G0psvr">selbstver-</add>
+				<lb facs="#facs_4_r13l5" n="N005" type="hyph"/><add rend="BrTinte" rendition="#hand" xml:id="add.0qAFnp">ständlich</add>
+				<lb facs="#facs_4_r13l6" n="N006"/><add rend="BrTinte" rendition="#hand" xml:id="add.EmIGvE">nur die</add>
+				<lb facs="#facs_4_r13l7" n="N007"/><add rend="BrTinte" rendition="#hand" xml:id="add.WT29ID">in ver-</add>
+				<lb facs="#facs_4_r13l8" n="N008" type="hyph"/><add rend="BrTinte" rendition="#hand" xml:id="add.TPuE63">tikaler</add>
+				<lb facs="#facs_4_r13l9" n="N009"/><add rend="BrTinte" rendition="#hand" xml:id="add.O3qjNU">Lage</add>
+				<lb facs="#facs_4_r13l10" n="N010"/><add rend="BrTinte" rendition="#hand" xml:id="add.MoTweu">befind</add>
+				<lb facs="#facs_4_r13l11" n="N011"/><add rend="BrTinte" rendition="#hand" xml:id="add.jFpSZk">lichen,</add>
+				<lb facs="#facs_4_r13l12" n="N012"/><add rend="BrTinte" rendition="#hand" xml:id="add.IT4JfP">d. h. auf-</add>
+				<lb facs="#facs_4_r13l13" n="N013" type="hyph"/><add rend="BrTinte" rendition="#hand" xml:id="add.XKdGOW">rechten</add>
+				<lb facs="#facs_4_r13l14" n="N014"/><add rend="BrTinte" rendition="#hand" xml:id="add.OUPpx0">Flächen.</add>
+			</p>
+			<p facs="#facs_4_r14" xml:id="p.0usI1Z" rendition="#hand" rend="STinte">
+				<lb facs="#facs_4_r14l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.WVpAUn"><metamark function="Einfügung">&einfüg_2;</metamark></add>
+				<lb facs="#facs_4_r14l2" n="N002"/><add rend="BrTinte" rendition="#hand" xml:id="add.7RbbC4">vertikale</add>
+				<lb facs="#facs_4_r14l3" n="N003"/><add rend="BrTinte" rendition="#hand" xml:id="add.EPqd2C">Fläche</add>
+			</p>
+			<p facs="#facs_4_r15" xml:id="p.2V4qiR" rendition="#hand" rend="STinte">
+				<lb facs="#facs_4_r15l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.VcLQwG"><metamark function="Einfügung">&einfüg_2;</metamark> sie</add>
+			</p>
+			<p facs="#facs_4_r16" xml:id="p.YtWjy9" rendition="#hand" rend="STinte">
+				<lb facs="#facs_4_r16l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.TAPR7N"><metamark function="Einfügung">&einfüg_2;</metamark> sie</add>
+			</p>
+			<p facs="#facs_4_r17" xml:id="p.2MA31M" rend="STinte" rendition="#hand">
+				<lb facs="#facs_4_r17l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.Vcqx63">aufrecht</add>
+				<lb facs="#facs_4_r17l2" n="N002"/><add rend="BrTinte" rendition="#hand" xml:id="add.UuLGpU">klein</add>
+				<lb facs="#facs_4_r17l3" n="N003"/><add rend="BrTinte" rendition="#hand" xml:id="add.n2cTqN">gedruckt</add>
+			</p>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_5_4r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_36r"/>
+			<p facs="#facs_4_r18" xml:id="p.fbcn7D" rendition="#nummer">
+				<lb facs="#facs_4_r18l1" n="N001"/>31 <link target="Stil_Bd.1_Aufl_I_1860a_s31"/>
+			</p>
+			<p facs="#facs_4_r19" xml:id="p.uJCtLa" rendition="#klein">
+				<lb facs="#facs_4_r19l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>. <add place="nach_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.gyuZMS">Die Decke</add>
+			</p>
+			<p facs="#facs_4_r20" xml:id="p.A94uQC" rendition="#corpus_spaced" prev="#p.RUxa2O" next="#p.oyixFh">
+				<lb facs="#facs_4_r20l1" n="N001"/>Regel nach sich als <hi rendition="#x-space">aufrecht</hi> durch grössere Höhe im Verhält-
+				<lb facs="#facs_4_r20l2" n="N002" type="hyph"/>nisse zu der Breite zu manifestiren haben. Ein vollkommenes
+				<lb facs="#facs_4_r20l3" n="N003"/>Quadrat würde in dieser Beziehung durchaus neutral sein; bei
+				<lb facs="#facs_4_r20l4" n="N004"/>ihm ist die proportionale Entwicklung ohne Ausdruck, wenn sie
+				<lb facs="#facs_4_r20l5" n="N005"/>nicht durch Unterabtheilungen und Muster, wodurch das Quadrat
+				<lb facs="#facs_4_r20l6" n="N006"/>gleichsam aus seiner Passivität herausgerissen wird, den nöthigen
+				<lb facs="#facs_4_r20l7" n="N007"/>Charakter erhält. Dabei ist es Regel, dass die Compartimente
+				<lb facs="#facs_4_r20l8" n="N008"/>und Muster das indifferente Quadrat so durchschneiden müssen,
+				<lb facs="#facs_4_r20l9" n="N009"/>dass jede auf seiner Oberfläche entstehende Abtheilung für sich
+				<lb facs="#facs_4_r20l10" n="N010"/>und zugleich das ganze System dieser Abtheilungen im Zusammen-
+				<lb facs="#facs_4_r20l11" n="N011" type="hyph"/>hange betrachtet den Bedingungen der Proportionalität und der
+				<lb facs="#facs_4_r20l12" n="N012"/>Symmetrie genügen müssen. Wo immer bei Wandbekleidungen
+				<lb facs="#facs_4_r20l13" n="N013"/>oder diesen ähnlichen Fällen das Quadrat oder ein diesem nahe
+				<lb facs="#facs_4_r20l14" n="N014"/>kommendes, für sich zu wenig actives Verhältniss als Hauptform
+				<lb facs="#facs_4_r20l15" n="N015"/>unvermeidlich wird, sucht der gute Geschmack diese durch Fül-
+				<lb facs="#facs_4_r20l16" n="N016" type="hyph"/>lungen und Felder zu theilen, die einzeln genommen höher sind
+				<lb facs="#facs_4_r20l17" n="N017"/>als breit und dadurch eine Gliederung der Hauptform der Wand-
+				<lb facs="#facs_4_r20l18" n="N018" type="hyph"/>fläche zu bewerkstelligen, wonach diese aufhört, indifferent zu sein
+				<lb facs="#facs_4_r20l19" n="N019"/>und in Beziehung auf Proportionalität und Symmetrie dem Auge
+				<lb facs="#facs_4_r20l20" n="N020"/>die nothwendige Beschäftigung und darauf folgende Befriedigung
+				<lb facs="#facs_4_r20l21" n="N021"/>gewährt.
+			</p>
+			<p facs="#facs_4_r21" xml:id="p.oyixFh" rendition="#corpus_spaced" prev="#p.A94uQC" next="#p.oC5jmz">
+				<lb facs="#facs_4_r21l1" n="N001"/>Eine Fläche kann sich auch dadurch als aufrechtstehend oder
+				<lb facs="#facs_4_r21l2" n="N002"/>senkrecht herabhangend bekunden, dass sie eine nach Oben oder
+				<lb facs="#facs_4_r21l3" n="N003"/>nach Unten auslaufende <rs ref="begriffsregister.xml#TERM0408" type="term">Form</rs> hat, so dass der Gegensatz des Oben
+				<lb facs="#facs_4_r21l4" n="N004"/>und Unten durch diese <rs ref="begriffsregister.xml#TERM0408" type="term">Form</rs> ausgesprochen erscheint. Ein gleich-
+				<lb facs="#facs_4_r21l5" n="N005" type="hyph"/>schenklichtes Dreieck z. B. wird immer mit seiner Spitze das Oben
+				<lb facs="#facs_4_r21l6" n="N006"/>oder Unten zu erkennen geben, je nachdem es als stehende oder
+				<lb facs="#facs_4_r21l7" n="N007"/>hängende Fläche gedacht wird. Hiebei zeigt es sich, dass das
+				<lb facs="#facs_4_r21l8" n="N008"/>Verhältniss der Höhe zu der Basis wohl den Grad der Proportio-
+				<lb facs="#facs_4_r21l9" n="N009" type="hyph"/>nalität betont, doch für die <hi rend="unterstr Blei">E<seg style="rotateZ(180deg)"><del rend="durchstr Blei" xml:id="del.vCa5Xn">n</del></seg></hi><add>n</add>tscheidung über das Oben und
+				<lb facs="#facs_4_r21l10" n="N010"/>Unten im Allgemeinen nicht a priori bestimmend ist.
+			</p>
+			<p facs="#facs_4_r22" xml:id="p.oC5jmz" rendition="#corpus_spaced" prev="#p.oyixFh" next="20_Ms_252_5_5.xml#p.SxopB8">
+				<lb facs="#facs_4_r22l1" n="N001"/>Dergleichen Dreiecke oder sonstige sich absolut als stehend
+				<lb facs="#facs_4_r22l2" n="N002"/>oder hangend kundgebende <rs ref="begriffsregister.xml#TERM0408" type="term">Formen</rs> werden in ihren Wirkungen
+				<lb facs="#facs_4_r22l3" n="N003"/>neutralisirt, wenn man sie <hi rendition="#x-space">reiht</hi>. Indem nämlich die Zwischen-
+				<lb facs="#facs_4_r22l4" n="N004" type="hyph"/>räume zwischen ihnen <rs ref="begriffsregister.xml#TERM0408" type="term">Formen</rs> bilden, die von ihnen das Umge-
+				<lb facs="#facs_4_r22l5" n="N005" type="hyph"/>kehrte sind, lassen erstere dem Streben nach einer Richtung, das
+				<lb facs="#facs_4_r22l6" n="N006"/>sich in der Reihung kund gibt, ein Streben nach der entgegen-
+				<lb facs="#facs_4_r22l7" n="N007" type="hyph"/>gesetzten Richtung entgegenwirken. In gewissen Fällen, von denen
+				<lb facs="#facs_4_r22l8" n="N008"/>bald die Rede sein wird, ist diese Eigenschaft der genannten
+			</p>
+			<join target="#p.oC5jmz 20_Ms_252_5_5.xml#p.SxopB8"/>
+			<p facs="#facs_4_r23" xml:id="p.yIBsBh" rendition="#hand" rend="Blei">
+				<lb facs="#facs_4_r23l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.Ljpa48"><sic><handShift script="Latein"/><hi rend="unterstr Blei">En</hi>tschedg<handShift script="Kurrent"/></sic></add>
+			</p>
+		</body>
+	</text>
+</TEI>

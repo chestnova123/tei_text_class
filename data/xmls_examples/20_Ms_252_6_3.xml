@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-6</label>, <locus>Seiten 36-37</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift. Erste SEite von einem Bogen</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Vierte und fünfte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_3">
+        <surface ulx="0" uly="0" lrx="6790" lry="5876">
+            <graphic url="20_Ms_252_6_3.jpg" width="6790px" height="5876px"/>
+			<zone points="2,-5 6790,-5 6790,5306 2,5306" rendition="printspace"/>
+			<zone points="563,279 703,279 703,380 563,380" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r1"/>
+			<zone points="1501,269 2177,269 2177,366 1501,366" rendition="TextRegion" subtype="header" xml:id="facs_3_r2"/>
+			<zone points="578,457 3074,457 3074,776 578,776" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r3"/>
+			<zone points="573,774 3082,774 3082,1396 573,1396" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r4"/>
+			<zone points="541,1401 3089,1401 3089,4530 541,4530" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r5"/>
+			<zone points="6135,307 6248,307 6248,426 6135,426" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r6"/>
+			<zone points="4763,308 5205,308 5205,362 4763,362" rendition="TextRegion" subtype="header" xml:id="facs_3_r7"/>
+			<zone points="3745,478 6237,478 6237,1296 3745,1296" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r8"/>
+			<zone points="3744,1318 6230,1318 6246,1629 6246,2249 3740,2249 3740,1629" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r9"/>
+			<zone points="3731,2255 6232,2255 6232,3612 3731,3612" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r10"/>
+			<zone points="3728,3606 6229,3606 6229,4221 3728,4221" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r11"/>
+			<zone points="3734,4233 6226,4233 6226,4558 3734,4558" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r12"/>
+			<zone points="6300,1076 6598,1076 6598,1240 6300,1240" rendition="TextRegion" xml:id="facs_3_r13"/>
+			<zone points="6299,1816 6592,1816 6592,2118 6299,2118" rendition="TextRegion" xml:id="facs_3_r14"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_6_2v" break="#facs_3" n="3"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_38v"/>
+			<p facs="#facs_3_r1" xml:id="p.2x79zQ" rendition="#nummer">
+				<lb facs="#facs_3_r1l1" n="N001"/>36 <link target="Stil_Bd.1_Aufl_I_1860a_s36"/>
+			</p>
+			<p facs="#facs_3_r2" xml:id="p.hhMGIg" rendition="#klein">
+				<lb facs="#facs_3_r2l1" n="N001"/>Drittes Hauptstück.
+			</p>
+			<p facs="#facs_3_r3" xml:id="p.1Zmfs9" prev="20_Ms_252_6_2.xml#p.wqSCyc" next="#p.yvA8rQ" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r3l1" n="N001"/>Technik, die bei der Production dieser Bekleidungsflächen am
+				<lb facs="#facs_3_r3l2" n="N002"/>frühesten thätig war, nämlich der <rs type="term" ref="begriffsregister.xml#TERM0005">textilen Kunst</rs> die grösste Be-
+				<lb facs="#facs_3_r3l3" n="N003" type="hyph"/>quemlichkeit des Darstellens oder Hervorbringens bieten.
+			</p>
+			<p facs="#facs_3_r4" xml:id="p.yvA8rQ" prev="#p.1Zmfs9" next="#p.EPV88M" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r4l1" n="N001"/>Es sei hier eine Stelle aus <rs type="person" ref="personen.xml#RiR">Richard Redgrave</rs>’s vortrefflichem
+				<lb facs="#facs_3_r4l2" n="N002"/>Berichte über zeichnende Künste, den dieser Künstler auf den
+				<lb facs="#facs_3_r4l3" n="N003"/>Wunsch der königlichen Kommission für die Weltausstellung von
+				<lb facs="#facs_3_r4l4" n="N004"/>1851 ausarbeitete, als zur Erläuterung des Angeführten dienend,
+				<lb facs="#facs_3_r4l5" n="N005"/>angezogen. ln der Abtheilung dieses Berichtes über Tapeten und
+				<lb facs="#facs_3_r4l6" n="N006"/>andere Wandbekleidungen sagt <rs type="person" ref="personen.xml#RiR">Redgrave</rs> Folgendes:
+			</p>
+			<p facs="#facs_3_r5" xml:id="p.EPV88M" prev="#p.yvA8rQ" next="#p.CDFX3m" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r5l1" n="N001"/>„Wenn man den Zweck solcher Stoffe berücksichtigt, wird die
+				<lb facs="#facs_3_r5l2" n="N002"/>„passende Dekoration für sie sofort klar hervortreten, da sie die-
+				<lb facs="#facs_3_r5l3" n="N003" type="hyph"/>„selbe Beziehung zu den durch sie umschlossenen Gegenständen
+				<lb facs="#facs_3_r5l4" n="N004"/>„haben müssen, die der Hintergrund zu einer gemalten Gruppe
+				<lb facs="#facs_3_r5l5" n="N005"/>„hat. In der <rs type="term" ref="begriffsregister.xml#TERM0343">Malerei</rs> hat der Hintergrund, wenn wohl angeordnet,
+				<lb facs="#facs_3_r5l6" n="N006"/>„seine eigenen entschieden hervortretenden Lineamente, aber diese
+				<lb facs="#facs_3_r5l7" n="N007"/>„sind in soweit unterzuordnen und zu dämpfen, als sie nicht zu
+				<lb facs="#facs_3_r5l8" n="N008"/>„besonderer Aufmerksamkeit auffordern dürfen, während das Ganze
+				<lb facs="#facs_3_r5l9" n="N009"/>„als Ensemble nur allein dazu dienen soll, die Hauptfiguren, näm-
+				<lb facs="#facs_3_r5l10" n="N010" type="hyph"/>„lich den Gegenstand des Bildes, zu tragen und besser hervorzu-
+				<lb facs="#facs_3_r5l11" n="N011" type="hyph"/>„heben. Die Dekoration einer Wand hat dieselbe Bestimmung
+				<lb facs="#facs_3_r5l12" n="N012"/>„und erfüllt sie, wenn sie nach richtigen Grundsätzen ausgeführt
+				<lb facs="#facs_3_r5l13" n="N013"/>„ist. Sie ist ein Hintergrund für die Möbel, die Kunstgegenstände
+				<lb facs="#facs_3_r5l14" n="N014"/>„und die den Wohnraum belebenden Personen. Sie mag den
+				<lb facs="#facs_3_r5l15" n="N015"/>„Haupteffekt bereichern und die Pracht vermehren, sie darf so
+				<lb facs="#facs_3_r5l16" n="N016"/>„angeordnet werden, dass sie den <rs type="term" ref="begriffsregister.xml#TERM0482">Charakter</rs> des Raumes bestimme,
+				<lb facs="#facs_3_r5l17" n="N017"/>„dass sie ihn heiter oder düster erscheinen lasse, sie mag schein-
+				<lb facs="#facs_3_r5l18" n="N018" type="hyph"/>„bar die Hitze des Sommers kühlen oder das Gefühl der Wärme,
+				<lb facs="#facs_3_r5l19" n="N019"/>„und Gemüthlichkeit im Winter erwecken, sie kann so berechnet
+				<lb facs="#facs_3_r5l20" n="N020"/>„werden, dass die beschränkte Räumlichkeit eines Saales grösser
+				<lb facs="#facs_3_r5l21" n="N021"/>„erscheine oder eine Studirstube, eine Bibliothek sich als engum-
+				<lb facs="#facs_3_r5l22" n="N022" type="hyph"/>„schlossen und abgesondert darlege — alles dieses kann bei pas-
+				<lb facs="#facs_3_r5l23" n="N023"/>„sender Anwendung der farbigen Ornamente leicht erreicht werden.
+				<lb facs="#facs_3_r5l24" n="N024"/>„Aber gleich jenem Hintergrunde, mit welchem die Dekoration
+				<lb facs="#facs_3_r5l25" n="N025"/>„schon verglichen wurde, muss sie, obschon sie einem der genann-
+				<lb facs="#facs_3_r5l26" n="N026" type="hyph"/>„ten Zwecke gemäss ihren <rs type="term" ref="begriffsregister.xml#TERM0482">Charakter</rs> entschiednn ausspricht, in
+				<lb facs="#facs_3_r5l27" n="N027"/>„gedämpftem Tone auftreten und die Contraste in Licht- und
+				<lb facs="#facs_3_r5l28" n="N028"/>„Schattenparthieen vermeiden. Streng genommen sollte sie sich
+				<lb facs="#facs_3_r5l29" n="N029"/>„nur in flachen und conventionellen dekorativen <rs ref="begriffsregister.xml#TERM0408" type="term">Formen</rs> bewegen
+				<lb facs="#facs_3_r5l30" n="N030"/>„und harte, den Grund durchschneidende Linien oder Formen
+			</p>
+			<join target="#p.EPV88M #p.CDFX3m"/>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_6_3r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_39r"/>
+			<p facs="#facs_3_r6" xml:id="p.NRRfkR" rendition="#nummer">
+				<lb facs="#facs_3_r6l1" n="N001"/>37 <link type="e-rara_Aufl_1" select="S.37"/>
+			</p>
+			<p facs="#facs_3_r7" xml:id="p.vybrWy" rendition="#klein">
+				<lb facs="#facs_3_r7l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>. <add place="nach_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.ojb5hg">Die Decke</add>
+			</p>
+			<p facs="#facs_3_r8" xml:id="p.CDFX3m" prev="#p.EPV88M" next="#p.CXl1PK" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r8l1" n="N001"/>„möglichst vermeiden, ausgenommen wo es der nöthige Ausdruck
+				<lb facs="#facs_3_r8l2" n="N002"/>„und die Deutlichkeit der Ornamente erheischt, dass eine derartige
+				<lb facs="#facs_3_r8l3" n="N003"/>„Unterbrechung stattfinde. Naturgetreue Sujets sind dem dekora-
+				<lb facs="#facs_3_r8l4" n="N004" type="hyph"/>„tiven Prinzipe entgegen, weil sie den Begriff des Flachen auf-
+				<lb facs="#facs_3_r8l5" n="N005" type="hyph"/>„heben, weil sie zugleich in ihrer detaillirten und täuschenden
+				<lb facs="#facs_3_r8l6" n="N006"/>„Darstellung das Auge zu sehr in Anspruch nehmen und wegen
+				<lb facs="#facs_3_r8l7" n="N007"/>„ihres anspruchsvoll<hi rend="unterstr Blei">en<del rend="durchstr Blei" xml:id="del.XcfpIT">s</del> H</hi>ervortretens die Ruhe des Gesammtbildes
+				<lb facs="#facs_3_r8l8" n="N008"/>„stören.
+			</p>
+			<p facs="#facs_3_r9" xml:id="p.CXl1PK" prev="#p.CDFX3m" next="#p.cBUwLC" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r9l1" n="N001"/>„Einige der besten Proben solcher Wanddekorationen in <rs type="artefact" ref="artefaktenregister.xml#THING0271">Seide</rs>,
+				<lb facs="#facs_3_r9l2" n="N002"/>„Sammt, Papier und andern Stoffen sind <hi rendition="#x-space">monochrome Behand-</hi>
+				<lb facs="#facs_3_r9l3" n="N003" type="hyph"/>„<hi rendition="#x-space">lungen textiler Muster</hi> . . . . . . . wobei das Ornament selbst-
+				<lb facs="#facs_3_r9l4" n="N004"/>„verständlich flach sein muss und den allgemeinen Eindruck nicht
+				<lb facs="#facs_3_r9l5" n="N005"/>„unterbricht. Bei geringster Aufmerksamkeit auf die Wahl der
+				<lb facs="#facs_3_r9l6" n="N006"/>„Muster kann eine solche monochrome Flächendekoration, <hi rend="unterstr BrTinte">wobe<unclear>i</unclear></hi>
+				<lb facs="#facs_3_r9l7" n="N007"/>„die Technik gleichsam die Muster angibt, kaum ganz schlecht
+				<lb facs="#facs_3_r9l8" n="N008"/>„ausfallen, während oft sehr grosse Eleganz und Schönheit aus
+				<lb facs="#facs_3_r9l9" n="N009"/>„diesem Prinzipe hervorging“ u. s. w. u. s. w.
+			</p>
+			<p facs="#facs_3_r10" xml:id="p.cBUwLC" prev="#p.CXl1PK" next="#p.QZHfsX" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r10l1" n="N001"/>Es wird sich in dem historisch-technischen Theile dieser Ab-
+				<lb facs="#facs_3_r10l2" n="N002" type="hyph"/>handlung über <rs type="term" ref="begriffsregister.xml#TERM0005">textile Kunst</rs> in ihrer Beziehung zu der <rs type="term" ref="begriffsregister.xml#TERM0004">Baukunst</rs>
+				<lb facs="#facs_3_r10l3" n="N003"/>die Gelegenheit bieten, über die Erweiterungen, deren dieses Prin-
+				<lb facs="#facs_3_r10l4" n="N004" type="hyph"/>zip in seiner Anwendung fähig ist, über die Fälle, in welchen es
+				<lb facs="#facs_3_r10l5" n="N005"/>nicht mehr gilt und über dessen modificirtes Auftreten je nach
+				<lb facs="#facs_3_r10l6" n="N006"/>den Stoffen, die in Frage kommen und ihrer technischen Behand-
+				<lb facs="#facs_3_r10l7" n="N007" type="hyph"/>lung das Bemerkenswerthere zu geben<gap/> Hier ist nur noch in Be-
+				<lb facs="#facs_3_r10l8" n="N008" type="hyph"/>zug auf dasselbe hervorzuheben, dass es gleichmässig für alle Fälle
+				<lb facs="#facs_3_r10l9" n="N009"/>passt, bei denen die <rs type="term" ref="begriffsregister.xml#TERM0005">textile Kunst</rs> irgend Anwendung findet, und
+				<lb facs="#facs_3_r10l10" n="N010"/>daher ebensowohl für <rs type="artefact" ref="artefaktenregister.xml#THING0242">Kleider</rs> und Gewänder, wie für Wandtapeten,
+				<lb facs="#facs_3_r10l11" n="N011"/>Vorhänge, Zeltdecken und Fussteppiche gültig ist, sowie es sich
+				<lb facs="#facs_3_r10l12" n="N012"/>denn auch auf solche Werke der Kunst erstreckt, die in stilistischer
+				<lb facs="#facs_3_r10l13" n="N013"/>Verwandschaftlichkeit zu der genannten Technik stehen.
+			</p>
+			<p facs="#facs_3_r11" xml:id="p.QZHfsX" prev="#p.cBUwLC" next="#p.NJjTNj" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r11l1" n="N001"/>Für <hi rendition="#x-space">Proportionalität</hi> und <hi rendition="#x-space">Symmetrie</hi> hat man bei der
+				<lb facs="#facs_3_r11l2" n="N002"/>Ornamentation der bekleidenden Flächen ausser dem allgemeinen
+				<lb facs="#facs_3_r11l3" n="N003"/>oben berührten Prinzipe noch gewisse engere Stilvorschriften zu
+				<lb facs="#facs_3_r11l4" n="N004"/>befolgen, die verschieden sind, je nachdem die Bekleidung als
+				<lb facs="#facs_3_r11l5" n="N005"/>aufwärts gerichtete Wand oder als herabhangende <rs type="artefact" ref="artefaktenregister.xml#THING0252">Draperie</rs> ge-
+				<lb facs="#facs_3_r11l6" n="N006" type="hyph"/>dacht wird.
+			</p>
+			<p facs="#facs_3_r12" xml:id="p.NJjTNj" prev="#p.QZHfsX" next="20_Ms_252_6_4.xml#p.XrfbH9" rendition="#corpus_spaced">
+				<lb facs="#facs_3_r12l1" n="N001"/>Bei Wandbekleidungen beiderlei Art muss das Muster sich in
+				<lb facs="#facs_3_r12l2" n="N002"/>dem Sinne der Proportionalität entwickeln und gleichsam abrollen.
+				<lb facs="#facs_3_r12l3" n="N003"/>Es würde zum Beispiel dem Gesetze der Proportionalität zuwider-
+			</p>
+			<join target="#p.NJjTNj 20_Ms_252_6_4.xml#p.XrfbH9"/>
+			<p facs="#facs_3_r13" xml:id="p.BO6MEM" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r13l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.VG8ESD"><handShift script="Latein"/>deɭ s<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_3_r14" xml:id="p.v9wG7R" rendition="#hand" rend="STinte">
+				<lb facs="#facs_3_r14l1" n="N001"/><add rend="BrTinte" rendition="#hand" xml:id="add.4F6wZD"><metamark function="Anmerkung">//</metamark></add>
+			</p>
+		</body>
+	</text>
+</TEI>

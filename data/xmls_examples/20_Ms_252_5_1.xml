@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-5</label>, <locus>Seite 25</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift.</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Erste Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_1">
+        <surface ulx="0" uly="0" lrx="3491" lry="5810">
+            <graphic url="20_Ms_252_5_1.jpg" width="3491px" height="5810px"/>
+			<zone points="2772,427 2865,427 2865,502 2772,502" rendition="TextRegion" subtype="page-number" xml:id="facs_1_r1"/>
+			<zone points="1393,398 1834,398 1834,457 1393,457" rendition="TextRegion" subtype="header" xml:id="facs_1_r2"/>
+			<zone points="383,562 2880,562 2880,971 383,971" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r3"/>
+			<zone points="365,982 2862,982 2862,1393 365,1393" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r4"/>
+			<zone points="347,1386 2854,1398 2854,2149 347,2137" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r5"/>
+			<zone points="576,2369 2599,2369 2599,4054 576,4054" rendition="Graphic" xml:id="facs_1_r_7"/>
+			<zone points="1062,3942 2084,3942 2084,4068 1062,4068" rendition="TextRegion" subtype="caption" xml:id="facs_1_r6"/>
+			<zone points="323,4098 2802,4098 2802,4212 323,4212" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r7"/>
+			<zone points="309,4188 911,4188 911,4311 309,4311" rendition="TextRegion" xml:id="facs_1_r8"/>
+			<zone points="316,4313 2804,4313 2804,4646 316,4646" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r9"/>
+			<zone points="2350,4678 2385,4678 2385,4727 2350,4727" rendition="TextRegion" subtype="paragraph" xml:id="facs_1_r10"/>
+			<zone points="118,2083 732,2083 732,2294 118,2294" rendition="TextRegion" xml:id="facs_1_r11"/>
+			<zone points="2917,1914 3304,1914 3304,2084 2917,2084" rendition="TextRegion" xml:id="facs_1_r12"/>
+			<zone points="912,4162 1356,4162 1356,4340 912,4340" rendition="TextRegion" xml:id="facs_1_r13"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_1r" facs="#facs_1" n="1"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_33r"/>
+			<p facs="#facs_1_r1" xml:id="p.V53wte" rendition="#nummer">
+				<lb facs="#facs_1_r1l1" n="N001"/>25 <link target="Stil_Bd.1_Aufl_I_1860a_s25"/>
+			</p>
+			<p facs="#facs_1_r2" xml:id="p.0oD7f7" rendition="#klein">
+				<lb facs="#facs_1_r2l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>. <add place="nach_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.YBJVn5">Das Band</add>
+			</p>
+			<p facs="#facs_1_r3" xml:id="p.bxHkXa" rendition="#corpus_spaced" prev="20_Ms_252_4_5.xml#p.Rwaa7b" next="#p.7HqpOu">
+				<lb facs="#facs_1_r3l1" n="N001" type="hyph"/>etikette hervorbrachte. Wir sehen sie jetzt in ihren ältesten Vor-
+				<lb facs="#facs_1_r3l2" n="N002" type="hyph"/>bildern unter zahlreichen Abstufungen der Pracht, die ebenso vielen
+				<lb facs="#facs_1_r3l3" n="N003"/>Graden der Würde entsprechen mochten, auf den assyrischen Relief-
+				<lb facs="#facs_1_r3l4" n="N004" type="hyph"/>tafeln dargestellt.
+			</p>
+			<p facs="#facs_1_r4" xml:id="p.7HqpOu" rendition="#corpus_spaced" prev="#p.bxHkXa" next="#p.bjVoQT">
+				<lb facs="#facs_1_r4l1" n="N001"/>Die Mitra der Erzbischöfe und der Päbste ist noch jetzt mit
+				<lb facs="#facs_1_r4l2" n="N002"/>der heiligen Infula ausgezeichnet, doch hat dieses uralte Symbol
+				<lb facs="#facs_1_r4l3" n="N003"/>in dem Laufe der letzten Jahrhunderte jegliche Würde und for-
+				<lb facs="#facs_1_r4l4" n="N004" type="hyph"/>melle Bedeutung eingebüsst.
+			</p>
+			<p facs="#facs_1_r5" xml:id="p.bjVoQT" rendition="#corpus_spaced" prev="#p.7HqpOu" next="#p.AdwhZG">
+				<lb facs="#facs_1_r5l1" n="N001"/>Zwischen den beiden bezeichneten Grenzen, nämlich dem leich-
+				<lb facs="#facs_1_r5l2" n="N002" type="hyph"/>ten Bandwerke der Tänzerin und der Opferbinde der <rs type="person" ref="personen.xml#Iph">Iphigenia</rs>
+				<lb facs="#facs_1_r5l3" n="N003"/><subst><del rend="überschr BrTinte" xml:id="del.XnUw0a"><add rend="Blei" rendition="#hand" xml:id="add.3Wsh7v" place="vor_Zeile">oder</add></del><add rend="BrTinte" rendition="#hand">oder</add></subst> <del rend="durchstr Blei BrTinte" xml:id="del.yiOsuY">und</del> den Paragnathides des Assyrerdynasten lässt sich eine Scala
+				<lb facs="#facs_1_r5l4" n="N004"/>von Nuancen denken, bei deren Bestimmung die Charaktere der
+				<lb facs="#facs_1_r5l5" n="N005"/>Formen, um deren Exornatio es sich handelt, maas<del rend="durchstr BrTinte" xml:id="del.Yf7AD0">s</del>gebend sind.
+				<lb facs="#facs_1_r5l6" n="N006"/><subst><add place="vor_Zeile" rend="Blei" rendition="#hand" xml:id="add.UOUcry"><del rend="überschr" xml:id="del.YfRp9I">Sehr</del></add><add place="vor_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.dm9XNz">Sehr</add></subst> <del rend="durchstr Blei_BrTinte" xml:id="del.kd5TFW">C</del><metamark function="Anmerkung" target="#p.Ujx2JM"><add>c</add></metamark>harakteristisch <add place="oberhalb" rend="BrTinte" rendition="#hand" xml:id="add.szEEEk"><del rend="durchstr BrTinte" xml:id="del.S4yxG7">char</del></add> sind die nach unten sich verbreiternden <add rend="Blei" rendition="#hand" xml:id="add.gUZadV"><metamark function="Einfügung" target="#p.uCxBxc">&einfüg_2;</metamark></add> <del rend="durchstr Blei BrTinte" xml:id="del.dJhtRN">und</del> <add rend="Blei BrTinte" rendition="#hand" xml:id="add.3awOGr"><metamark function="Einfügung" rend="Linie"><anchor xml:id="A20_Ms_252_5_1_1"/></metamark></add> mit
+				<lb facs="#facs_1_r5l7" n="N007"/>einer Eichel erschwerten Opfertänien, die auf Vasengemälden und
+			</p>
+			<p facs="#facs_1_r6" xml:id="p.gQqWiG" rendition="#x-klein">
+				<lb facs="#facs_1_r6l1" n="N001"/>Delphische Weihung und Opfertänien.
+			</p>
+			<p facs="#facs_1_r7" xml:id="p.AdwhZG" rendition="#corpus_spaced" prev="#p.bjVoQT" next="#p.0Fyk8m">
+				<lb facs="#facs_1_r7l1" n="N001"/>plastischen Werken des Alterthumes nicht selten vorkommen.
+			</p>
+			<p facs="#facs_1_r8" xml:id="p.0Fyk8m" rendition="#corpus_spaced" prev="#p.AdwhZG" next="#p.x3FDuV">
+				<lb facs="#facs_1_r8l1" n="N001"/><del rend="durchstr Blei BrTinte" xml:id="del.F5CeNS">(Siehe Fig.</del><del rend="durchstr Blei" xml:id="del.4JMQ27">.)</del>
+			</p>
+			<p facs="#facs_1_r9" xml:id="p.x3FDuV" rendition="#corpus_spaced" prev="#p.0Fyk8m" next="20_Ms_252_5_2.xml#p.4JORny">
+				<lb facs="#facs_1_r9l1" n="N001"/>Es versteht sich, dass dieselben Gesetze gelten, wo dieser
+				<lb facs="#facs_1_r9l2" n="N002"/><rs type="artefact" ref="artefaktenregister.xml#THING1957">Schmuck</rs> mit der <rs type="term" ref="begriffsregister.xml#TERM0004">Baukunst</rs> in nähere oder entferntere Beziehung
+				<lb facs="#facs_1_r9l3" n="N003"/>gebracht werden soll. Hier sind die Fahnen, Flaggen und Wimpel
+			</p>
+			<join target="#p.x3FDuV 20_Ms_252_5_2.xml#p.4JORny"/>
+			<p facs="#facs_1_r10" xml:id="p.gsTaqT" rendition="#x-klein">
+				<lb facs="#facs_1_r10l1" n="N001"/>4
+			</p>
+			<p facs="#facs_1_r11" xml:id="p.Ujx2JM" rendition="#hand" rend="STinte">
+				<lb facs="#facs_1_r11l1" n="N001"/><subst><add rend="Blei" rendition="#hand" xml:id="add.Yoz3JW"><del rend="überschr" xml:id="del.xM7AJx"><unclear>charakteristisch</unclear></del></add><add rend="BrTinte" rendition="#hand" xml:id="add.A9xvjG">klein <handShift script="Latein"/>C<handShift script="Kurrent"/></add></subst>
+			</p>
+			<p facs="#facs_1_r12" xml:id="p.uCxBxc" rendition="#hand" rend="STinte">
+				<lb facs="#facs_1_r12l1" n="N001"/><add rend="Blei_BrTinte" rendition="#hand" xml:id="add.bVQabU"><metamark function="Einfügung" rend="Linie"><ptr target="#A20_Ms_252_5_1_1"/></metamark></add> <subst><add rend="Blei" rendition="#hand" xml:id="add.dTAsBV"><del rend="überschr" xml:id="del.bxazqL">oft</del></add><add rend="BrTinte" rendition="#hand" xml:id="add.IdwIEw">oft</add></subst>
+			</p>
+			<p facs="#facs_1_r13" xml:id="p.zDhdCQ" rendition="#hand" rend="STinte">
+				<lb facs="#facs_1_r13l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.Gz0nQM"><handShift script="Latein"/>del<handShift script="Kurrent"/> .</add>
+			</p>
+		</body>
+	</text>
+</TEI>

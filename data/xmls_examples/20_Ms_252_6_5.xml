@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-6</label>, <locus>Seite 40</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift. Erste SEite von einem Bogen</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Achte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_5">
+        <surface ulx="0" uly="0" lrx="3521" lry="5858">
+            <graphic url="20_Ms_252_6_5.jpg" width="3521px" height="5858px"/>
+			<zone points="5,1 3520,1 3520,5287 5,5287" rendition="printspace"/>
+			<zone points="657,440 747,440 747,514 657,514" rendition="TextRegion" subtype="page-number" xml:id="facs_5_r1"/>
+			<zone points="1601,422 2215,422 2215,491 1601,491" rendition="TextRegion" subtype="header" xml:id="facs_5_r2"/>
+			<zone points="652,598 3177,598 3177,1020 3177,1326 3177,1536 656,1536 652,1019" rendition="TextRegion" subtype="paragraph" xml:id="facs_5_r3"/>
+			<zone points="659,1543 3187,1543 3187,2554 659,2554" rendition="TextRegion" subtype="paragraph" xml:id="facs_5_r4"/>
+			<zone points="1778,2617 2061,2617 2061,2754 1778,2754" rendition="TextRegion" subtype="heading" xml:id="facs_5_r5"/>
+			<zone points="1537,2804 2294,2804 2294,2870 1537,2870" rendition="TextRegion" subtype="heading" xml:id="facs_5_r6"/>
+			<zone points="645,2958 3162,2959 3166,3168 3166,3474 3166,3480 3166,3910 3166,4086 902,4086 648,4084 650,3480" rendition="TextRegion" subtype="paragraph" xml:id="facs_5_r7"/>
+			<zone points="647,4107 3168,4107 3168,4418 3163,4737 643,4737 643,4419" rendition="TextRegion" subtype="paragraph" xml:id="facs_5_r8"/>
+			<zone points="2733,3635 2899,3635 2899,4097 2733,4097" rendition="Graphic" xml:id="facs_5_Graphic_1554479543751_678"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_4v" facs="#facs_5" n="5"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_40v"/>
+			<p facs="#facs_5_r1" xml:id="p.hzvWA7" rendition="#nummer">
+				<lb facs="#facs_5_r1l1" n="N001"/>40 <link target="Stil_Bd.1_Aufl_I_1860a_s40"/>
+			</p>
+			<p facs="#facs_5_r2" xml:id="p.u5HCWx" rendition="#klein">
+				<lb facs="#facs_5_r2l1" n="N001"/>Drittes Hauptstück.
+			</p>
+			<p facs="#facs_5_r3" xml:id="p.4sZJtn" prev="20_Ms_252_6_4.xml#p.XWD0HE" next="#p.nMbN7u" rendition="#corpus_spaced">
+				<lb facs="#facs_5_r3l1" n="N001"/>insofern der ausgespannten Teppichwand eine nett ausgesprochene
+				<lb facs="#facs_5_r3l2" n="N002"/>Symmetrie der ornamentalen Anordnung gebührt, während diese
+				<lb facs="#facs_5_r3l3" n="N003"/>bei der herabfallenden faltenreichen <rs type="artefact" ref="artefaktenregister.xml#THING0252">Draperie</rs> nicht nothwendig,
+				<lb facs="#facs_5_r3l4" n="N004"/>sogar störend erscheint. Der <rs type="artefact" ref="artefaktenregister.xml#THING0253">Vorhang</rs> kann den indischen Kache-
+				<lb facs="#facs_5_r3l5" n="N005" type="hyph"/>mirs analog reich und konfus sein, da durch den <rs type="artefact" ref="artefaktenregister.xml#THING_FALTENW">Faltenwurf</rs> ohne-
+				<lb facs="#facs_5_r3l6" n="N006" type="hyph"/>diess alle Symmetrie des Musters gestört wird und dafür die pla-
+				<lb facs="#facs_5_r3l7" n="N007" type="hyph"/>stische Symmetrie des Faltensystemes an die Stelle tritt, die ihrer
+				<lb facs="#facs_5_r3l8" n="N008"/>Natur nach nicht regelmässig ist, sondern sich nur als Massen-
+				<lb facs="#facs_5_r3l9" n="N009" type="hyph"/>gleichgewicht geltend macht.
+			</p>
+			<p facs="#facs_5_r4" xml:id="p.nMbN7u" prev="#p.4sZJtn" next="#p.dwCnGL" rendition="#corpus_spaced">
+				<lb facs="#facs_5_r4l1" n="N001"/>Die zweite Verschiedenheit zwischen beiden vertikalen Wand-
+				<lb facs="#facs_5_r4l2" n="N002" type="hyph"/>bekleidungen liegt in der Art ihrer Abschliessung, die bei der ge-
+				<lb facs="#facs_5_r4l3" n="N003" type="hyph"/>spannten Teppichbekleidung nach Oben stattfindet und mit der
+				<lb facs="#facs_5_r4l4" n="N004"/>Dominante des proportionalen Dreiklanges zusammenfällt, bei der
+				<lb facs="#facs_5_r4l5" n="N005"/>herabfallenden <rs type="artefact" ref="artefaktenregister.xml#THING0252">Draperie</rs> dagegen nach Unten geschieht, wo sie mit
+				<lb facs="#facs_5_r4l6" n="N006"/>der Basis des proportionalen Dreiklanges in Verbindung tritt, aus
+				<lb facs="#facs_5_r4l7" n="N007"/>welcher Verbindung oft reiche und eigenthümliche Schlussformen
+				<lb facs="#facs_5_r4l8" n="N008"/>hervorgehen. Man vergleiche, was hierüber bereits oben angeführt
+				<lb facs="#facs_5_r4l9" n="N009"/>wurde, sowie die Vorrede und das später Folgende über Naht
+				<lb facs="#facs_5_r4l10" n="N010"/>und Saum.
+			</p>
+			<p facs="#facs_5_r5" xml:id="p.dwCnGL" prev="#p.nMbN7u" next="#p.SUhzCl" rendition="#druck_unbekannt">
+				<lb facs="#facs_5_r5l1" n="N001"/>§. 12.
+			</p>
+			<p facs="#facs_5_r6" xml:id="p.SUhzCl" prev="#p.dwCnGL" next="#p.Dm3iMC" rendition="#klein">
+				<lb facs="#facs_5_r6l1" n="N001"/>Fussbodenbekleidungen.
+			</p>
+			<p facs="#facs_5_r7" xml:id="p.Dm3iMC" prev="#p.SUhzCl" next="#p.Kf0UlK" rendition="#corpus_spaced">
+				<lb facs="#facs_5_r7l1" n="N001"/>In dem Vorausgegangenen wurden die Fälle behandelt, in wel-
+				<lb facs="#facs_5_r7l2" n="N002" type="hyph"/>chen bei Bekleidungsflächen die Begriffe <hi rendition="#x-space">Oben</hi> und <hi rendition="#x-space">Unten</hi>,
+				<lb facs="#facs_5_r7l3" n="N003"/><hi rendition="#x-space">Rechts</hi> und <hi rendition="#x-space">Links</hi> klar und deutlich hervortreten; es bleibt
+				<lb facs="#facs_5_r7l4" n="N004"/>noch übrig, von denjenigen zu sprechen, in welchen diese Begriffe
+				<lb facs="#facs_5_r7l5" n="N005"/>indifferent bleiben oder doch in weniger entschiedener Weise,
+				<lb facs="#facs_5_r7l6" n="N006"/>gleichsam verhüllt, auftreten. In diesem Sinne sind die <hi rendition="#x-space">Fuss-</hi>
+				<lb facs="#facs_5_r7l7" n="N007" type="hyph"/><hi rendition="#x-space">bodenbekleidungen</hi> und die Decken, welche als <hi rendition="#x-space">horizontal</hi>
+				<lb facs="#facs_5_r7l8" n="N008"/><hi rendition="#x-space">ausgespannte, freischwebende Raumesabschlüsse nach</hi>
+				<lb facs="#facs_5_r7l9" n="N009"/><hi rendition="#x-space">oben</hi> zu ersteren den Gegensatz bilden, für unsere Zwecke die
+				<lb facs="#facs_5_r7l10" n="N010"/>wichtigsten, deren Stilgerechtigkeit uns nun zunächst beschäftigen
+				<lb facs="#facs_5_r7l11" n="N011"/>muss.
+			</p>
+			<p facs="#facs_5_r8" xml:id="p.Kf0UlK" prev="#p.Dm3iMC" next="20_Ms_252_7_1.xml#p.egAGvg" rendition="#corpus_spaced">
+				<lb facs="#facs_5_r8l1" n="N001"/>So deutlich sich der allgemeinste Unterschied zwischen der
+				<lb facs="#facs_5_r8l2" n="N002"/>stilistischen Gesetzlichkeit einer Fussbodenbekleidung oder einer
+				<lb facs="#facs_5_r8l3" n="N003"/>Plafonddecke und derjenigen einer Wandbekleidung oder einesß
+				<lb facs="#facs_5_r8l4" n="N004"/>Vorhanges erkennen lässt, da jene horizontal ausgestreckte Ebenen
+				<lb facs="#facs_5_r8l5" n="N005"/>bilden, diese dagegen vertikal aufgerichtet sind, so schwierig ist
+				<lb facs="#facs_5_r8l6" n="N006"/>die Aufgabe, von diesem Vergleichungspunkte ausgehend, und zwar
+			</p>
+			<join target="#p.Kf0UlK 20_Ms_252_7_1.xml#p.egAGvg"/>
+		</body>
+	</text>
+</TEI>

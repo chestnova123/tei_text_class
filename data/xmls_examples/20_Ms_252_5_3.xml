@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="semper_edition_schema_prov_mit_druck.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "Zeichen.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gottfried Semper: Der Stil. Kritische und kommentierte Ausgabe: Druckfahne: <label>gta Ms 252-5</label>, <locus>Seiten 28-29</locus></title>
+				<author ref="personen.xml#GS">Semper, Gottfried (1803-1879)</author>
+				<funder>Schweizerischer Nationalfonds (SNF)</funder>
+				<sponsor>Università della Svizzera italiana, Eidgenössische Technische Hochschule</sponsor>
+				<principal> Prof. Dr. Philip Ursprung (ETH), Prof. Dr. Sonja Hildebrand (USI)</principal> 
+			</titleStmt>
+			<editionStmt>
+				<edition>transcription and encoding</edition>
+				<respStmt n="1">
+					<resp>hand written text transcribed by</resp>
+					<name ref="personen.xml#DiWe">Dieter Weidmann</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>print OCR and correction</resp>
+					<name>Patricia Bachman</name>
+				</respStmt>
+				<respStmt n="2">
+					<resp>converted to TEI</resp>
+					<name ref="personen.xml#ECh">Elena Chestnova</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Semper-Edition SNF Projekt</authority>
+				<pubPlace>Zürich</pubPlace>
+				<date>2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Zürich</settlement>
+						<institution>Eidgenössische Technische Hochschule</institution>
+						<repository>gta Archiv</repository>
+						<idno>20-Ms-252</idno>
+					</msIdentifier>
+					
+					<msContents><textLang xml:lang="de">Deutsch</textLang><msItem n="1"><p xml:id="p.afnOhY">Druckfahne zum Stil von <name>Gottfried Semper</name> mit Korrekturen.</p></msItem></msContents>
+					<physDesc>
+						<objectDesc form="manuscript"> 
+							<supportDesc><support>Bräunliches Papier gedruckt, Korrekturen und Ergänzungen in Blei, blauer, violetter Tinte, ockerfarbenem Stift.</support>
+								<extent>4 Folien<dimensions scope="all" type="leaf" unit="cm"><height>21</height><width>14</width></dimensions></extent>
+								<foliation><p xml:id="p.PJ7rTx">Oben rechts und links gedruckt paginiert.</p></foliation>
+								<collation><p xml:id="p.3hWaB2">Vierte und fünfte Seite von einem Bogen von 8 Seiten, auf 2 gefalteten Blättern, gefaltet.</p></collation>
+								<condition><p xml:id="p.9GNRhs">Keine wesentliche Beschädigungen.</p></condition></supportDesc>
+							<layoutDesc> <layout><p xml:id="p.BpjTNH">Blätter sind beidseitig bedruckt mit Korrekturen und Bemerkungen im Text und am Rand.</p></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1"><summary>Von Gottfried Semper korrigirt und annotirt</summary>
+							<handNote xml:id="hGS" corresp="personen.xml#GS" n="1"><p xml:id="p.APwYI9">Korrekturen und Ergänzungen in Blei und farbiger Tinte von <rs type="person" ref="personen.xml#GS">Gottfried Semper</rs>.</p></handNote>
+							
+						</handDesc>
+						<typeDesc>
+							<typeNote><p xml:id="p.9MQSCY">Siehe unten – tags declaration</p></typeNote>
+						</typeDesc>
+						<scriptDesc>
+							<scriptNote xml:id="Kurrent"><p xml:id="p.o1B1io">Deutsche Kurrentschrift</p></scriptNote>
+							<scriptNote xml:id="Griechisch"><p xml:id="p.C0PWgK">Griechische Schrift</p></scriptNote>
+							<scriptNote xml:id="Latein">Lateinische Schrift</scriptNote>
+						</scriptDesc>
+						<accMat>Kein zusätzliches Material.</accMat>
+					</physDesc>
+				</msDesc>
+			</sourceDesc></fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p xml:id="p.NbeZzg">Den von Gottfried Semper geschriebenen Text ist transkribiert. Orthographische Besonderheiten der Semperschen Zeit ohne Kommentar transkribiert.</p>
+			</editorialDecl>
+			
+			<tagsDecl>
+				<rendition xml:id="hand">Handschrift</rendition>
+				<rendition xml:id="corpus_solid">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, undurchschossen</rendition>
+				<rendition xml:id="corpus_spaced">Drucktext des Haupttextes, wahrscheinlich eine geänderte Version von einem Didot Schrift, ca. 3 mm hoch, durchschossen in ca. 150% Zeilenabstand</rendition>
+				<rendition xml:id="x-space">Drucktext, gesperrt gesetzt</rendition>
+				<rendition xml:id="greek">Drucktext griechisch</rendition>
+				<rendition xml:id="egypt">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 3 mm hoch, wird für Hauptstück-titeln eingesetzt.</rendition>
+				<rendition xml:id="egypt_gross">Drucktext in Egyptienne, fett-wirkendes Schrift mit dicken Serifen, ca. 4 mm hoch, wird für Abschnitt-titeln eingesetzt, sowie für Sempers Name auf dem Titelblatt.</rendition>
+				<rendition xml:id="egypt_x_gross">Vergrösserte Egyptienne, mit Grossbuchstaben ca. 4 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="klein">Verkleinerte Version von der Schrift des Haupttextes, ca. 2.5 mm hoch, durchschossen in ca. 150% Zeilenabstand, wird in Kopf- und Fusszeilen eingesetzt, sowie in den Untertiteln von den Paragraphen und in den zitierten poetischen Exzerpten.</rendition>
+				<rendition xml:id="x-klein">Extra-verkleinerte Version von der Schrift des Haupttextes, ca. 2 mm hoch, wird für Bogensignaturen und Holzschnittbeschriftungen angewendet</rendition>
+				<rendition xml:id="all_caps">In Grossbuchstaben gedruckt</rendition>
+				<rendition xml:id="frak">Deutsche Fraktur</rendition>
+				<rendition xml:id="class_gross">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 7 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_med">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 3.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_x_klein">Klassizistisch-wirkende, vertikal-betonte Schrift, mit Grossbuchstaben ca. 1.5 mm hoch, auf Titelblatt angewendet</rendition>
+				<rendition xml:id="class_schmal">Die schmale Version von der klassizistisch-wirkenden Schrift, wird bei manchen Überschriften angewendet, sowie auf dem Titelblatt für "Erster Band". Grossbuchstaben ca. 4 mm hoch.</rendition>
+				<rendition xml:id="class_schmal_klein">Die schmale und kleinere Version von der klassizistisch-wirkenden Schrift, wird für Abschnitt-Untertitel angewendet.</rendition>
+				<rendition xml:id="corpus_breit">Eine breitere Version von der Corpus-Schrift, wird auf dem Titelblatt angewendet</rendition>
+				<rendition xml:id="druck_unbekannt">Drucktext, der nicht feiner identifizirt werden kann.</rendition>
+				<rendition xml:id="nummer">Vergrösserte Version des Corpus-textes, wird für Seitennummern angewendet</rendition>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date notBefore="1856-11-23" notAfter="1857-10-15">23.11.1856 - 15.10.1857</date>
+				<name type="place">Zürich</name><name type="place">Stuttgart</name>
+			</creation>
+			<langUsage>
+				<language ident="de">Deutsch</language>
+			</langUsage>
+			
+		</profileDesc>
+		
+	</teiHeader>
+	<facsimile xml:id="facs_3">
+        <surface ulx="0" uly="0" lrx="6832" lry="5816">
+            <graphic url="20_Ms_252_5_3.jpg" width="6832px" height="5816px"/>
+			<zone points="0,11 6820,11 6820,5241 0,5241" rendition="printspace"/>
+			<zone points="624,410 718,410 718,483 624,483" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r1"/>
+			<zone points="1563,400 2171,400 2171,468 1563,468" rendition="TextRegion" subtype="header" xml:id="facs_3_r2"/>
+			<zone points="1747,593 1967,593 1967,741 1747,741" rendition="TextRegion" subtype="heading" xml:id="facs_3_r3"/>
+			<zone points="1485,786 2248,786 2248,853 1485,853" rendition="TextRegion" subtype="heading" xml:id="facs_3_r4"/>
+			<zone points="1587,947 2162,947 2162,1014 1587,1014" rendition="TextRegion" subtype="heading" xml:id="facs_3_r5"/>
+			<zone points="631,1100 3127,1100 3127,2425 631,2425" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r6"/>
+			<zone points="633,2450 3119,2450 3119,2966 633,2966" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r7"/>
+			<zone points="631,2971 3123,2971 3123,3903 631,3903" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r8"/>
+			<zone points="626,3905 3124,3905 3124,4635 626,4635" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r9"/>
+			<zone points="169,1695 472,1695 472,2060 169,2060" rendition="TextRegion" xml:id="facs_3_r10"/>
+			<zone points="3111,2621 3367,2621 3367,2921 3111,2921" rendition="TextRegion" xml:id="facs_3_r11"/>
+			<zone points="6179,365 6306,365 6306,481 6179,481" rendition="TextRegion" subtype="page-number" xml:id="facs_3_r12"/>
+			<zone points="4758,324 5313,324 5313,477 4758,477" rendition="TextRegion" subtype="header" xml:id="facs_3_r13"/>
+			<zone points="3813,560 6306,560 6306,1712 3813,1712" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r14"/>
+			<zone points="3805,1715 6317,1715 6317,4625 3805,4625" rendition="TextRegion" subtype="paragraph" xml:id="facs_3_r15"/>
+			<zone points="6360,1359 6706,1359 6706,1664 6360,1664" rendition="TextRegion" xml:id="facs_3_r16"/>
+			<zone points="6328,2584 6755,2584 6755,2829 6328,2829" rendition="TextRegion" xml:id="facs_3_r17"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_2v" facs="#facs_3" n="3"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_34v"/>
+			<p facs="#facs_3_r1" xml:id="p.WQ2iTR" rendition="#nummer">
+				<lb facs="#facs_3_r1l1" n="N001"/>28 <link target="Stil_Bd.1_Aufl_I_1860a_s28"/>
+			</p>
+			<p facs="#facs_3_r2" xml:id="p.b6QWJr" rendition="#klein">
+				<lb facs="#facs_3_r2l1" n="N001"/>Drittes Hauptstück.
+			</p>
+			<p facs="#facs_3_r3" xml:id="p.8SDam5" rendition="#druck_unbekannt" prev="20_Ms_252_5_2.xml#p.jaPFfj" next="#p.tCgGn4">
+				<lb facs="#facs_3_r3l1" n="N001"/>§. 8.
+			</p>
+			<p facs="#facs_3_r4" xml:id="p.tCgGn4" rendition="#klein" prev="#p.8SDam5" next="#p.Cp5BCp">
+				<lb facs="#facs_3_r4l1" n="N001"/><del rend="durchstr Blei" xml:id="del.4Igh0U">Das Prinzip der Fläche</del>.
+			</p>
+			<p facs="#facs_3_r5" xml:id="p.Cp5BCp" rendition="#x-space" prev="#p.tCgGn4" next="#p.fQKObQ">
+				<lb facs="#facs_3_r5l1" n="N001"/><hi rendition="#x-space">Die Decke.</hi>
+			</p>
+			<p facs="#facs_3_r6" xml:id="p.fQKObQ" rendition="#corpus_spaced" prev="#p.Cp5BCp" next="#p.2ZJu7c">
+				<lb facs="#facs_3_r6l1" n="N001"/>Das Bedürfniss des Schutzes, der Deckung und der Raum-
+				<lb facs="#facs_3_r6l2" n="N002" type="hyph"/>schliessung war einer der frühesten Antriebe zu industriellem Er-
+				<lb facs="#facs_3_r6l3" n="N003" type="hyph"/>finden. Der Mensch lernte natürliche Decken, z. B. das zottige
+				<lb facs="#facs_3_r6l4" n="N004"/><rs type="artefact" ref="artefaktenregister.xml#THING0236">Fell</rs> der Thiere, die schützende Rinde der Bäume, in ihrem Wesen
+				<lb facs="#facs_3_r6l5" n="N005"/>und ihrer Bestimmung erkennen, sie zu eigenen Zwecken nach
+				<lb facs="#facs_3_r6l6" n="N006"/>ihrer richtig aufgefassten natürlichen Bestimmung benutzen, sie zu-
+				<lb facs="#facs_3_r6l7" n="N007" type="hyph"/>letzt durch künstliches Geflecht nachbilden. Der Gebrauch dieser
+				<lb facs="#facs_3_r6l8" n="N008"/>Decken ist älter als die S<metamark function="Einfügung" target="#p.73BCSO"/><del rend="durchstr Blei" xml:id="del.AFt8Hu">a</del>rache, der Begriff der Deckung, des
+				<lb facs="#facs_3_r6l9" n="N009"/>Schutzes, des Abschlusses ist unauflöslich an jene natürlichen und
+				<lb facs="#facs_3_r6l10" n="N010"/>künstlichen Decken und Bekleidungen geknüpft, die somit die
+				<lb facs="#facs_3_r6l11" n="N011"/>sinnlichen Zeichen für jene Begriffe geworden sind und als solche
+				<lb facs="#facs_3_r6l12" n="N012"/>vielleicht das wichtigste Element in der Symbolik der <rs type="term" ref="begriffsregister.xml#TERM0004">Baukunst</rs>
+				<lb facs="#facs_3_r6l13" n="N013"/>bilden.
+			</p>
+			<p facs="#facs_3_r7" xml:id="p.2ZJu7c" rendition="#corpus_spaced" prev="#p.fQKObQ" next="#p.hMG3o2">
+				<lb facs="#facs_3_r7l1" n="N001"/>Die Bestimmung der Decke bildet einen Gegensatz zu dem,
+				<lb facs="#facs_3_r7l2" n="N002"/>was das Gebinde bezweckt. Alles Abgeschlossene, Geschützte,
+				<lb facs="#facs_3_r7l3" n="N003"/>Umfasste, Umhüllte, Gedeckte zeigt sich als <hi rendition="#x-space">einheitlich</hi>, als
+				<lb facs="#facs_3_r7l4" n="N004"/>Collectivität, — wogegen alles Gebundene sich <add rend="Blei" rendition="#hand" xml:id="add.EsE7sy"><metamark function="Einfügung" target="#p.XxuaeQ">&einfüg_2;</metamark></add> <del rend="durchstr Blei" xml:id="del.zjcw1O">dls</del> Gegliedertes,
+				<lb facs="#facs_3_r7l5" n="N005"/>als Pluralität kund gibt.
+			</p>
+			<p facs="#facs_3_r8" xml:id="p.hMG3o2" rendition="#corpus_spaced" prev="#p.2ZJu7c" next="#p.IxM9vq">
+				<lb facs="#facs_3_r8l1" n="N001"/>Wenn die <rs ref="begriffsregister.xml#TERM0035" type="term">Grundform</rs> des Gebindes <hi rendition="#x-space">linearisch</hi> ist, so tritt
+				<lb facs="#facs_3_r8l2" n="N002"/>bei Allem, was decken, schützen und abschliessen soll, die <hi rendition="#x-space">Fläche</hi>
+				<lb facs="#facs_3_r8l3" n="N003"/>als Formen-Element auf. Die Eigenschaften der Fläche, nämlich
+				<lb facs="#facs_3_r8l4" n="N004"/>Ausdehnung nach der Breite und Länge, Abwesenheit der dritten
+				<lb facs="#facs_3_r8l5" n="N005"/>Dimension als thätiges Element der Erscheinung, endlich Begren-
+				<lb facs="#facs_3_r8l6" n="N006" type="hyph"/>zung durch Linien (gerade, krumme oder gemischte), verbunden
+				<lb facs="#facs_3_r8l7" n="N007"/>mit der oben erwähnten allgemeinen Bestimmung der Decken, als
+				<lb facs="#facs_3_r8l8" n="N008"/>einheitlich Umfassendes, bilden die wichtigsten allgemeinen Mo-
+				<lb facs="#facs_3_r8l9" n="N009" type="hyph"/>mente, die den Stil der Decke bedingen.
+			</p>
+			<p facs="#facs_3_r9" xml:id="p.IxM9vq" rendition="#corpus_spaced" prev="#p.hMG3o2" next="#p.3r77QP">
+				<lb facs="#facs_3_r9l1" n="N001"/>Hieraus ergibt sich nun erstens, <hi rendition="#x-space">dass die Hülle oder die</hi>
+				<lb facs="#facs_3_r9l2" n="N002"/><hi rendition="#x-space">Decke sich als Fläche manifestiren müsse.</hi> Schon dem
+				<lb facs="#facs_3_r9l3" n="N003"/>ganz abstracten, um den Nutzen und das Zweckmässige unbeküm-
+				<lb facs="#facs_3_r9l4" n="N004" type="hyph"/>merten Schönheitssinne widerstehen daher derartige Decken, welche
+				<lb facs="#facs_3_r9l5" n="N005"/>die Eigenschaft, Flächen zu sein, nicht besitzen, oder bei denen
+				<lb facs="#facs_3_r9l6" n="N006"/>diese Grundeigenschaft wohl gar künstlich und nur scheinbar auf-
+				<lb facs="#facs_3_r9l7" n="N007" type="hyph"/>gehoben ist, während sie ihrer Bestimmung entsprechend der That
+			</p>
+			<join target="#p.IxM9vq #p.3r77QP"/>
+			<p facs="#facs_3_r10" xml:id="p.73BCSO" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r10l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.db1Bnf"><metamark function="Einfügung">&einfüg_2;</metamark> <handShift script="Latein"/>p<handShift script="Kurrent"/></add>
+			</p>
+			<p facs="#facs_3_r11" xml:id="p.XxuaeQ" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r11l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.616e1Y"><metamark function="Einfügung">&einfüg_2;</metamark> <handShift script="Latein"/>als<handShift script="Kurrent"/></add>
+			</p>
+			<pb subtype="einzeln" xml:id="F20_Ms_252_5_3r"/>
+			<pb subtype="durch" xml:id="F20_Ms_252_35r"/>
+			<p facs="#facs_3_r12" xml:id="p.CAdPkT" rendition="#nummer">
+				<lb facs="#facs_3_r12l1" n="N001"/>29 <link target="Stil_Bd.1_Aufl_I_1860a_s28"/>
+			</p>
+			<p facs="#facs_3_r13" xml:id="p.ytcWxE" rendition="#klein">
+				<lb facs="#facs_3_r13l1" n="N001"/><rs type="term" ref="begriffsregister.xml#TERM0005">Textile Kunst</rs>. <add place="nach_Zeile" rend="BrTinte" rendition="#hand" xml:id="add.KSzuMy">Die Decke</add>
+			</p>
+			<p facs="#facs_3_r14" xml:id="p.3r77QP" rendition="#corpus_spaced" prev="#p.IxM9vq" next="#p.G8xu5n">
+				<lb facs="#facs_3_r14l1" n="N001"/>nach wirklich vollkommene Flächen sind. Noch widersinniger er-
+				<lb facs="#facs_3_r14l2" n="N002" type="hyph"/>scheinen Störungen der Flächencontinuität, wo die materielle Be-
+				<lb facs="#facs_3_r14l3" n="N003" type="hyph"/>stimmung der Decke es dringend erheischt, dass sie nicht bloss
+				<lb facs="#facs_3_r14l4" n="N004"/>Fläche (surface), sondern ebene Fläche (plan) bilde. Ich führe
+				<lb facs="#facs_3_r14l5" n="N005"/>zur Erläuterung des hier nackt hingestellten Prinzipes nur <hi rendition="#x-space">ein</hi>
+				<lb facs="#facs_3_r14l6" n="N006"/>Beispiel auf, es mir vorbehaltend, in der technisch-geschichtlichen
+				<lb facs="#facs_3_r14l7" n="N007"/>Behandlung des uns hier beschäftigenden Gegenstandes, die zu-
+				<lb facs="#facs_3_r14l8" n="N008" type="hyph"/>nächst folgen wird, dessen Gültigkeit als Norm nachzuweisen, aber
+				<lb facs="#facs_3_r14l9" n="N009"/>zugleich die Fälle zu berücksichtigen, wann Beschränkungen und
+				<lb facs="#facs_3_r14l10" n="N010"/>Ausnahmen in seiner Anwendung stattfinden <add rend="Blei" rendition="#hand" xml:id="add.YwkE3L"><metamark function="Einfügung">&einfüg_2;</metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.Bihk87"><metamark function="Einfügung" target="#p.76XKe0" rend="Linie"><anchor xml:id="A20_ms_252_5_3_1"/></metamark></add> oder es sich wohl
+				<lb facs="#facs_3_r14l11" n="N011"/>gar in negativem Sinne geltend macht.
+			</p>
+			<p facs="#facs_3_r15" xml:id="p.G8xu5n" rendition="#corpus_spaced" prev="#p.3r77QP" next="20_Ms_252_5_4.xml#p.lGfhR2">
+				<lb facs="#facs_3_r15l1" n="N001"/>Es gibt wohl keinen Fall, in welchem dieses Prinzip schla-
+				<lb facs="#facs_3_r15l2" n="N002" type="hyph"/>gender in seiner vollen Gültigkeit hervorträte, als bei den mit
+				<lb facs="#facs_3_r15l3" n="N003"/>Teppichen bekleideten oder mit Marmor und Holz getäfelten, oder
+				<lb facs="#facs_3_r15l4" n="N004"/>endlich mit buntem Mosaikwerke belegten Fussböden. Hier auf
+				<lb facs="#facs_3_r15l5" n="N005"/>der Ebene) welche bestimmt ist, beständig betreten zu werden,
+				<lb facs="#facs_3_r15l6" n="N006"/>sind alle architektonischen Relief-Ornamente, alle Nachahmungen
+				<lb facs="#facs_3_r15l7" n="N007"/>von Früchten, Muscheln und sonstigem Gebröckel, sind selbst hin-
+				<lb facs="#facs_3_r15l8" n="N008" type="hyph"/>gestreute Blumenbouquets genau genommen um so unpassender
+				<lb facs="#facs_3_r15l9" n="N009"/>angebracht, je vollendeter und naturgetreuer sie in Relief und
+				<lb facs="#facs_3_r15l10" n="N010"/>Farbe wiedergegeben erscheinen. Das <hi rend="unterstr Blei"><del rend="durchstr Blei" xml:id="del.ZnY3rv">A</del><add place="oberhalb" rend="Blei" rendition="#hand" xml:id="add.oJx9o9">a</add>sa</hi>roton oecos des Sosus,
+				<lb facs="#facs_3_r15l11" n="N011"/>der berühmte attalische <rs type="artefact" ref="artefaktenregister.xml#THING0004">Mosaik-Fussboden</rs>, auf welchem nach
+				<lb facs="#facs_3_r15l12" n="N012"/><rs type="person" ref="personen.xml#PL1">Plinius</rs> die Abfälle der Tafel täuschend nachgebildet waren, ist
+				<lb facs="#facs_3_r15l13" n="N013"/>sicher ein stilfehlerhaftes Werk gewesen, so gross auch seine Ver-
+				<lb facs="#facs_3_r15l14" n="N014" type="hyph"/>dienste als Kunstwerk sein mochten. Dennoch lässt sich dieser
+				<lb facs="#facs_3_r15l15" n="N015"/>humoristische Einfall leichter entschuldigen, als das Mosaikbild,
+				<lb facs="#facs_3_r15l16" n="N016"/>das <rs type="person" ref="personen.xml#PL1">Plinius</rs> gleichzeitig erwähnt und das wunderbarer Weise bis
+				<lb facs="#facs_3_r15l17" n="N017"/>zu uns gekommen ist, nämlich die berühmten <rs type="artefact" ref="artefaktenregister.xml#THING0003">Tauben, welche aus
+				<lb facs="#facs_3_r15l18" n="N018"/>dem Wasserbecken trinken</rs>, die in denselben Fussboden eingelegt
+				<lb facs="#facs_3_r15l19" n="N019"/>waren und denen man somit unausgesetzt unbarmherzig auf den
+				<lb facs="#facs_3_r15l20" n="N020"/>Kopf trat. Nicht gerechtfertigter ist in stilistischer Beziehung der
+				<lb facs="#facs_3_r15l21" n="N021"/>berühmte <rs type="artefact" ref="artefaktenregister.xml#THING0002">Fussboden mit der Alexanderschlacht</rs>, sind selbst gewisse
+				<lb facs="#facs_3_r15l22" n="N022"/>in den römischen und altchristlichen Mosaikböden oft vorkommende
+				<lb facs="#facs_3_r15l23" n="N023"/>Combinationen buntfarbiger Steine, die sie rauh und gleichsam
+				<lb facs="#facs_3_r15l24" n="N024"/>zackig oder gewölbt erscheinen lassen, welches zur Folge hat, das
+				<lb facs="#facs_3_r15l25" n="N025"/>Gefühl der Unsicherheit durch jene Scheinhindernisse des Bodens
+				<lb facs="#facs_3_r15l26" n="N026"/>bei dem darauf Wandelnden zu erwecken und das Auge zu zwingen,
+				<lb facs="#facs_3_r15l27" n="N027"/>sich stets auf den Boden zu senken. Indessen muss zu der Ent-
+				<lb facs="#facs_3_r15l28" n="N028" type="hyph"/>schuldigung der Architekten des römischen Alterthums beigefügt
+			</p>
+			<join target="#p.G8xu5n 20_Ms_252_5_4.xml#p.lGfhR2"/>
+			<p facs="#facs_3_r16" xml:id="p.76XKe0" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r16l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.FEqd4Y"><metamark function="Einfügung" rend="Linie"><ptr target="#A20_ms_252_5_3_1"/></metamark></add> <add rend="Blei" rendition="#hand" xml:id="add.5A3VK3">dürfen</add>
+			</p>
+			<p facs="#facs_3_r17" xml:id="p.6ecmFo" rendition="#hand" rend="Blei">
+				<lb facs="#facs_3_r17l1" n="N001"/><add rend="Blei" rendition="#hand" xml:id="add.zn42C1">kleines</add>
+				<lb facs="#facs_3_r17l2" n="N002"/><add rend="Blei" rendition="#hand" xml:id="add.Yw2CKF"><handShift script="Latein"/>a<handShift script="Kurrent"/></add>
+			</p>
+		</body>
+	</text>
+</TEI>
